@@ -29,38 +29,29 @@ int NajmanjeVrijeme(int N, int M, int *u, int *v, int *w, int K, int *d, int **p
 		}
 	}
 	priority_queue <qobj, vector <qobj>, comp> pq;
-	int mask = 0;
 	dist[s][0] = 0;
 	pq.push(qobj(s,0,0));
-	for(map <int, int>::iterator it = S[s].begin(); it != S[s].end(); ++it) {
-		mask |= it->second;
-		if(dist[s][mask] > it->first) {
-			dist[s][mask] = it->first;
-			pq.push(qobj(s,it->first,mask));
-		}
-	}
 	while(!pq.empty()) {
 		qobj t = pq.top();
 		pq.pop();
-		if(t.t > dist[t.u][t.mask]) continue;
 		if(t.mask == (1 << k) - 1) return t.t;
+		if(t.t > dist[t.u][t.mask]) continue;
+		map <int, int>::iterator it;
+		for(it = S[t.u].begin(); it != S[t.u].end(); ++it) 
+			if(it->first >= t.t) break;
+		int mask = t.mask;
+		for(; it != S[t.u].end(); ++it) {
+			mask |= it->second;
+			if(dist[t.u][mask] > it->first) {
+				dist[t.u][mask] = it->first;
+				pq.push(qobj(t.u, it->first, mask));
+			}
+		}
 		for(int i = 0; i < n; ++i) {
 			if(e[t.u][i] != -1) {
-				int td = t.t + e[t.u][i];
-				if(td < dist[i][t.mask]) {
-					dist[i][t.mask] = td;
-					pq.push(qobj(i, td, t.mask));
-				}
-				map <int, int>::iterator it;
-				for(it = S[i].begin(); it != S[i].end(); ++it) 
-					if(it->first >= td) break;
-				mask = t.mask;
-				for(; it != S[i].end(); ++it) {
-					mask |= it->second;
-					if(dist[i][mask] > it->first) {
-						dist[i][mask] = it->first;
-						pq.push(qobj(i, it->first, mask));
-					}
+				if(t.t + e[t.u][i] < dist[i][t.mask]) {
+					dist[i][t.mask] = t.t + e[t.u][i];
+					pq.push(qobj(i, t.t + e[t.u][i], t.mask));
 				}
 			}
 		}
