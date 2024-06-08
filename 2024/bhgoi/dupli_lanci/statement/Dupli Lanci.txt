@@ -1,0 +1,72 @@
+Dupli Lanci -- NAPOMENA: (relativno) malo memorijsko igraničenje, samo je bitno za posljednji podzadatak
+
+Veliki čarobnjak Gandalf vam je dao zadatak da što većem broju naselja u Bosni i Hercegovini napravite poseban ukras.
+
+Po njegovom savjetu ti ukrasi će biti parovi lanaca. Svaki lanac se sastoji od crvenih i plavih karika. Na jednom od lanaca će vrijediti da je između dvije crvene karike (ako ih uopšte stavite) barem K plavih karika. Drugi lanac je drugačiji i on mora kršiti ovo pravilo.
+
+Želite da svaki lanac koji napravite je jedinstven, te da su svi iste dužine, N. Na lancima su označeni početak i kraj, tako da lanci C-P i P-C su drugačiji lanci, gdje C i P predstavljaju crvene i plave karike, redom.
+
+Za zadanu dužinu lanca N i razmaka K vaš zadatak je odrediti koliko ovakvih parova lanaca možete napraviti. Pošto odgovor može biti vrlo velik, potrebno je ispisati ostatak pri djeljenju ovog broja sa 10^9+7 (milijardu i sedam).
+
+Ulazni podaci
+
+Prvi i jedini red ulaza sadrži dva broja, N i K, iz opisa zadatka, razdvojeni razmakom.
+
+Ograničenja
+
+0 <= K <= 10^4
+K < N <= 10^8
+
+Zadatak ima vremensko ograničenje od 2 sekunde, te memorijsko ogrančenje od 8 MB
+
+Podzadatak 1 (4 boda)
+
+1 <= K < N <= 3
+
+Podzadatak 2 (22 bodova)
+
+5 <= K < N <= 20
+
+Podzadatak 3 (10 bodova)
+
+0 <= K < N <= 20
+
+Podzadatak 4 (22 bodova)
+
+0 <= K < N <= 10^4
+
+Podzadatak 5 (42 bodova)
+
+Bez dodatnih ograničenja.
+
+Izlazni podaci
+
+Potrebno je ispisati jedan broj, ostatak pri djeljenju broja M sa milijardu i sedam.
+
+Primjer 1
+Ulaz
+3 1
+Izlaz
+3
+Objašnjenje
+Postoji ukupno 8 mogućih lanaca. Od njih, 5 prati pravilo (PPP, PPC, PCP, CPP, CPC), dok ostala 3 ga ne prati (PCC, CCP, CCC). Tako da je moguće napraviti maksimalno 3 para lanaca, poštujući pravila zadatka.
+
+Primjer 2
+Ulaz
+20 19
+Izlaz
+21
+Objašenjenje
+Samo lanci sa 0 ili 1 crvenom karikom poštuju pravilo, a takvih lanaca je 21. Lanaca koji ne poštuju pravilo je više, tako da je moguće napraviti 21 par lanaca po opisu zadatka.
+
+Primjer 3
+Ulaz
+8000 6
+Izlaz
+621198682
+
+Primjer 4
+Ulaz
+87654321 1234
+Izlaz
+540031201

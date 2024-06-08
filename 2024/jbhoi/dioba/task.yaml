@@ -1,0 +1,12 @@
+name: "dioba"
+title: "Dioba"
+time_limit: 1
+memory_limit: 256
+n_input: 20
+public_testcases: all
+total_value: 100
+token_mode: disabled
+score_mode: max_subtask
+primary_language: bs
+infile: ""
+outfile: ""
