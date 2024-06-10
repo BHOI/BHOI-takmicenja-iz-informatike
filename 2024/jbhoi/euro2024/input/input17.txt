@@ -1,0 +1,15 @@
+3
+ETePhUXdGs loEfXRUixB lshwWxECcf
+12
+ETePhUXdGs - loEfXRUixB : 1 - 3
+ETePhUXdGs - lshwWxECcf : 2 - 4
+loEfXRUixB - ETePhUXdGs : 1 - 2
+loEfXRUixB - lshwWxECcf : 1 - 2
+lshwWxECcf - ETePhUXdGs : 2 - 4
+lshwWxECcf - loEfXRUixB : 0 - 1
+ETePhUXdGs - loEfXRUixB : 1 - 2
+ETePhUXdGs - lshwWxECcf : 1 - 3
+loEfXRUixB - ETePhUXdGs : 2 - 4
+loEfXRUixB - lshwWxECcf : 0 - 2
+lshwWxECcf - ETePhUXdGs : 0 - 2
+lshwWxECcf - loEfXRUixB : 0 - 2

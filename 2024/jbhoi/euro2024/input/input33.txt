@@ -1,0 +1,15 @@
+3
+HVPXxHLnvo MPEXtIxDAX iYkAOJIC_n
+12
+HVPXxHLnvo - MPEXtIxDAX : 1 - 3
+HVPXxHLnvo - iYkAOJIC_n : 1 - 2
+MPEXtIxDAX - HVPXxHLnvo : 1 - 3
+MPEXtIxDAX - iYkAOJIC_n : 0 - 2
+iYkAOJIC_n - HVPXxHLnvo : 0 - 2
+iYkAOJIC_n - MPEXtIxDAX : 0 - 2
+HVPXxHLnvo - MPEXtIxDAX : 0 - 2
+HVPXxHLnvo - iYkAOJIC_n : 1 - 3
+MPEXtIxDAX - HVPXxHLnvo : 0 - 1
+MPEXtIxDAX - iYkAOJIC_n : 0 - 2
+iYkAOJIC_n - HVPXxHLnvo : 0 - 2
+iYkAOJIC_n - MPEXtIxDAX : 2 - 3

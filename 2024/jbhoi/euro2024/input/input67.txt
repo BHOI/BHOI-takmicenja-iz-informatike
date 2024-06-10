@@ -1,0 +1,14 @@
+3
+JfabhnrWQk hvUpnRoLBa qZkKWknOlX
+11
+hvUpnRoLBa - qZkKWknOlX : 0 - 1
+hvUpnRoLBa - qZkKWknOlX : 2 - 4
+qZkKWknOlX - JfabhnrWQk : 4 - 2
+qZkKWknOlX - JfabhnrWQk : 7 - 2
+qZkKWknOlX - JfabhnrWQk : 6 - 2
+hvUpnRoLBa - qZkKWknOlX : 9 - 3
+JfabhnrWQk - hvUpnRoLBa : 7 - 4
+qZkKWknOlX - JfabhnrWQk : 0 - 8
+JfabhnrWQk - hvUpnRoLBa : 6 - 7
+qZkKWknOlX - JfabhnrWQk : 9 - 0
+JfabhnrWQk - hvUpnRoLBa : 3 - 10

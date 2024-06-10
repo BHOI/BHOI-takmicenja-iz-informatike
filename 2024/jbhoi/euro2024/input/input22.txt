@@ -1,0 +1,21 @@
+4
+JOPnxAArHW OvwKmaHKrz dQPiVAZlVS vNXzdJFXYb
+18
+JOPnxAArHW - dQPiVAZlVS : 6 - 5
+JOPnxAArHW - dQPiVAZlVS : 10 - 9
+vNXzdJFXYb - OvwKmaHKrz : 19 - 9
+vNXzdJFXYb - JOPnxAArHW : 10 - 9
+JOPnxAArHW - dQPiVAZlVS : 8 - 7
+OvwKmaHKrz - dQPiVAZlVS : 12 - 9
+JOPnxAArHW - OvwKmaHKrz : 10 - 9
+OvwKmaHKrz - vNXzdJFXYb : 9 - 8
+vNXzdJFXYb - OvwKmaHKrz : 16 - 9
+JOPnxAArHW - dQPiVAZlVS : 8 - 1
+JOPnxAArHW - dQPiVAZlVS : 9 - 8
+OvwKmaHKrz - dQPiVAZlVS : 18 - 10
+dQPiVAZlVS - JOPnxAArHW : 17 - 9
+vNXzdJFXYb - JOPnxAArHW : 8 - 2
+vNXzdJFXYb - OvwKmaHKrz : 11 - 2
+vNXzdJFXYb - OvwKmaHKrz : 11 - 9
+JOPnxAArHW - OvwKmaHKrz : 11 - 4
+JOPnxAArHW - OvwKmaHKrz : 3 - 0

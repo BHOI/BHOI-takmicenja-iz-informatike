@@ -1,0 +1,15 @@
+3
+IIwAUFgCeT tVfzArCnYB vFAFGXqCEJ
+12
+IIwAUFgCeT - tVfzArCnYB : 2 - 0
+IIwAUFgCeT - vFAFGXqCEJ : 2 - 1
+tVfzArCnYB - IIwAUFgCeT : 4 - 2
+tVfzArCnYB - vFAFGXqCEJ : 3 - 1
+vFAFGXqCEJ - IIwAUFgCeT : 1 - 0
+vFAFGXqCEJ - tVfzArCnYB : 1 - 0
+IIwAUFgCeT - tVfzArCnYB : 3 - 2
+IIwAUFgCeT - vFAFGXqCEJ : 3 - 1
+tVfzArCnYB - IIwAUFgCeT : 2 - 1
+tVfzArCnYB - vFAFGXqCEJ : 1 - 0
+vFAFGXqCEJ - IIwAUFgCeT : 4 - 2
+vFAFGXqCEJ - tVfzArCnYB : 3 - 1

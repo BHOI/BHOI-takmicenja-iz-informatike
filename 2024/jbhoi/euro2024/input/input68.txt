@@ -1,0 +1,10 @@
+4
+JMhbvKDohz TVX_K_fqgq dGPURceWbX grDbuvyrkM
+7
+dGPURceWbX - JMhbvKDohz : 12 - 4
+dGPURceWbX - JMhbvKDohz : 10 - 1
+TVX_K_fqgq - grDbuvyrkM : 20 - 10
+JMhbvKDohz - TVX_K_fqgq : 16 - 7
+TVX_K_fqgq - dGPURceWbX : 10 - 9
+TVX_K_fqgq - dGPURceWbX : 2 - 0
+TVX_K_fqgq - dGPURceWbX : 8 - 4

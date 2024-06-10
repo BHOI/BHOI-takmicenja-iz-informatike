@@ -1,0 +1,22 @@
+4
+GUYqLmYJFe WmMZ_Myyvw aotJLpITyF cyLkjKpqnC
+19
+cyLkjKpqnC - WmMZ_Myyvw : 0 - 4
+GUYqLmYJFe - aotJLpITyF : 2 - 12
+WmMZ_Myyvw - cyLkjKpqnC : 8 - 10
+aotJLpITyF - cyLkjKpqnC : 5 - 9
+cyLkjKpqnC - GUYqLmYJFe : 10 - 17
+GUYqLmYJFe - aotJLpITyF : 4 - 6
+WmMZ_Myyvw - cyLkjKpqnC : 8 - 10
+aotJLpITyF - cyLkjKpqnC : 2 - 12
+GUYqLmYJFe - aotJLpITyF : 8 - 17
+cyLkjKpqnC - GUYqLmYJFe : 6 - 16
+WmMZ_Myyvw - cyLkjKpqnC : 0 - 1
+WmMZ_Myyvw - aotJLpITyF : 1 - 9
+aotJLpITyF - GUYqLmYJFe : 6 - 11
+GUYqLmYJFe - aotJLpITyF : 4 - 8
+aotJLpITyF - cyLkjKpqnC : 4 - 6
+aotJLpITyF - cyLkjKpqnC : 6 - 16
+GUYqLmYJFe - WmMZ_Myyvw : 10 - 15
+cyLkjKpqnC - GUYqLmYJFe : 7 - 15
+GUYqLmYJFe - WmMZ_Myyvw : 4 - 5

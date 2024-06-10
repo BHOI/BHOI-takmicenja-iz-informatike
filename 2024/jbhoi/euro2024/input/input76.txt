@@ -1,0 +1,23 @@
+5
+TOsaouzEx_ ZvkvJtKzOv afLbzhUfKa rqicXvumNH uriIcTThgZ
+20
+TOsaouzEx_ - ZvkvJtKzOv : 6 - 9
+TOsaouzEx_ - afLbzhUfKa : 4 - 10
+TOsaouzEx_ - rqicXvumNH : 7 - 9
+TOsaouzEx_ - uriIcTThgZ : 6 - 4
+ZvkvJtKzOv - TOsaouzEx_ : 4 - 6
+ZvkvJtKzOv - afLbzhUfKa : 2 - 1
+ZvkvJtKzOv - rqicXvumNH : 0 - 3
+ZvkvJtKzOv - uriIcTThgZ : 1 - 2
+afLbzhUfKa - TOsaouzEx_ : 9 - 5
+afLbzhUfKa - ZvkvJtKzOv : 0 - 0
+afLbzhUfKa - rqicXvumNH : 5 - 4
+afLbzhUfKa - uriIcTThgZ : 4 - 8
+rqicXvumNH - TOsaouzEx_ : 4 - 4
+rqicXvumNH - ZvkvJtKzOv : 0 - 2
+rqicXvumNH - afLbzhUfKa : 0 - 4
+rqicXvumNH - uriIcTThgZ : 1 - 6
+uriIcTThgZ - TOsaouzEx_ : 0 - 8
+uriIcTThgZ - ZvkvJtKzOv : 6 - 7
+uriIcTThgZ - afLbzhUfKa : 10 - 8
+uriIcTThgZ - rqicXvumNH : 9 - 8

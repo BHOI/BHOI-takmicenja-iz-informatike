@@ -1,0 +1,45 @@
+3
+ZSRowoGddy haqrwBOcxe kltmGoxOON
+42
+haqrwBOcxe - kltmGoxOON : 1 - 0
+haqrwBOcxe - kltmGoxOON : 18 - 8
+kltmGoxOON - ZSRowoGddy : 3 - 1
+haqrwBOcxe - kltmGoxOON : 14 - 8
+ZSRowoGddy - haqrwBOcxe : 13 - 4
+ZSRowoGddy - haqrwBOcxe : 15 - 8
+haqrwBOcxe - kltmGoxOON : 12 - 4
+ZSRowoGddy - haqrwBOcxe : 9 - 1
+kltmGoxOON - ZSRowoGddy : 15 - 7
+ZSRowoGddy - haqrwBOcxe : 12 - 4
+kltmGoxOON - ZSRowoGddy : 6 - 1
+kltmGoxOON - ZSRowoGddy : 11 - 5
+ZSRowoGddy - haqrwBOcxe : 18 - 8
+ZSRowoGddy - haqrwBOcxe : 13 - 3
+ZSRowoGddy - haqrwBOcxe : 8 - 3
+ZSRowoGddy - haqrwBOcxe : 8 - 4
+ZSRowoGddy - haqrwBOcxe : 8 - 7
+kltmGoxOON - ZSRowoGddy : 5 - 0
+ZSRowoGddy - haqrwBOcxe : 8 - 0
+kltmGoxOON - ZSRowoGddy : 11 - 2
+ZSRowoGddy - haqrwBOcxe : 9 - 0
+kltmGoxOON - ZSRowoGddy : 6 - 4
+kltmGoxOON - ZSRowoGddy : 11 - 5
+haqrwBOcxe - kltmGoxOON : 9 - 4
+kltmGoxOON - ZSRowoGddy : 8 - 7
+ZSRowoGddy - haqrwBOcxe : 17 - 9
+ZSRowoGddy - haqrwBOcxe : 9 - 7
+haqrwBOcxe - kltmGoxOON : 14 - 4
+ZSRowoGddy - haqrwBOcxe : 6 - 4
+kltmGoxOON - ZSRowoGddy : 15 - 8
+kltmGoxOON - ZSRowoGddy : 8 - 2
+ZSRowoGddy - haqrwBOcxe : 18 - 10
+haqrwBOcxe - kltmGoxOON : 9 - 3
+haqrwBOcxe - kltmGoxOON : 5 - 2
+ZSRowoGddy - haqrwBOcxe : 17 - 9
+haqrwBOcxe - kltmGoxOON : 3 - 0
+haqrwBOcxe - kltmGoxOON : 14 - 8
+ZSRowoGddy - haqrwBOcxe : 14 - 9
+ZSRowoGddy - haqrwBOcxe : 4 - 3
+ZSRowoGddy - haqrwBOcxe : 15 - 7
+ZSRowoGddy - haqrwBOcxe : 13 - 9
+ZSRowoGddy - haqrwBOcxe : 11 - 9

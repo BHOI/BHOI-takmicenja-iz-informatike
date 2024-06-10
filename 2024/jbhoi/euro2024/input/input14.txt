@@ -1,0 +1,9 @@
+3
+SiEyvGsqVE XBCiMgw_ZJ YnGipgfrvj
+6
+SiEyvGsqVE - XBCiMgw_ZJ : 2 - 0
+SiEyvGsqVE - YnGipgfrvj : 1 - 0
+XBCiMgw_ZJ - SiEyvGsqVE : 1 - 0
+XBCiMgw_ZJ - YnGipgfrvj : 4 - 2
+YnGipgfrvj - SiEyvGsqVE : 3 - 1
+YnGipgfrvj - XBCiMgw_ZJ : 2 - 1

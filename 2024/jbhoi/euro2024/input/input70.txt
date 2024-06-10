@@ -1,0 +1,43 @@
+4
+LTPCGGXkDi XhqLYhWRJh bJsOeLmsfp kgvvppgoBl
+40
+LTPCGGXkDi - bJsOeLmsfp : 0 - 8
+kgvvppgoBl - XhqLYhWRJh : 3 - 12
+XhqLYhWRJh - kgvvppgoBl : 3 - 7
+LTPCGGXkDi - bJsOeLmsfp : 6 - 9
+XhqLYhWRJh - kgvvppgoBl : 9 - 10
+XhqLYhWRJh - bJsOeLmsfp : 1 - 2
+XhqLYhWRJh - bJsOeLmsfp : 6 - 8
+bJsOeLmsfp - kgvvppgoBl : 2 - 8
+bJsOeLmsfp - kgvvppgoBl : 5 - 10
+XhqLYhWRJh - bJsOeLmsfp : 4 - 9
+XhqLYhWRJh - kgvvppgoBl : 2 - 5
+kgvvppgoBl - XhqLYhWRJh : 1 - 3
+kgvvppgoBl - LTPCGGXkDi : 3 - 8
+LTPCGGXkDi - XhqLYhWRJh : 7 - 15
+XhqLYhWRJh - kgvvppgoBl : 0 - 4
+XhqLYhWRJh - bJsOeLmsfp : 6 - 9
+LTPCGGXkDi - XhqLYhWRJh : 9 - 12
+LTPCGGXkDi - bJsOeLmsfp : 3 - 6
+XhqLYhWRJh - kgvvppgoBl : 6 - 8
+XhqLYhWRJh - kgvvppgoBl : 1 - 8
+XhqLYhWRJh - kgvvppgoBl : 10 - 20
+bJsOeLmsfp - LTPCGGXkDi : 1 - 8
+XhqLYhWRJh - bJsOeLmsfp : 9 - 17
+LTPCGGXkDi - bJsOeLmsfp : 0 - 9
+bJsOeLmsfp - kgvvppgoBl : 5 - 11
+kgvvppgoBl - XhqLYhWRJh : 2 - 6
+XhqLYhWRJh - kgvvppgoBl : 7 - 16
+LTPCGGXkDi - bJsOeLmsfp : 4 - 14
+kgvvppgoBl - LTPCGGXkDi : 6 - 13
+XhqLYhWRJh - bJsOeLmsfp : 9 - 15
+XhqLYhWRJh - kgvvppgoBl : 8 - 16
+kgvvppgoBl - XhqLYhWRJh : 9 - 14
+XhqLYhWRJh - bJsOeLmsfp : 9 - 17
+bJsOeLmsfp - LTPCGGXkDi : 4 - 11
+bJsOeLmsfp - kgvvppgoBl : 10 - 17
+kgvvppgoBl - XhqLYhWRJh : 2 - 12
+bJsOeLmsfp - LTPCGGXkDi : 3 - 7
+XhqLYhWRJh - kgvvppgoBl : 0 - 3
+bJsOeLmsfp - LTPCGGXkDi : 0 - 1
+bJsOeLmsfp - kgvvppgoBl : 0 - 6

@@ -1,0 +1,9 @@
+3
+OJywdKlmGn wdLXFCtpXZ zTLsNbftfG
+6
+OJywdKlmGn - wdLXFCtpXZ : 1 - 1
+OJywdKlmGn - zTLsNbftfG : 1 - 1
+wdLXFCtpXZ - OJywdKlmGn : 2 - 2
+wdLXFCtpXZ - zTLsNbftfG : 1 - 1
+zTLsNbftfG - OJywdKlmGn : 2 - 2
+zTLsNbftfG - wdLXFCtpXZ : 2 - 2

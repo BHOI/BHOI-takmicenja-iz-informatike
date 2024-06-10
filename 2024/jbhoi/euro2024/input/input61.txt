@@ -1,0 +1,28 @@
+51
+BCXUySneXD ETQcYBxlAs GfrusgoPzK GykDJvQbzP HOqLHJXPyx ILKsYqXtXP JemWPiII_d JhelueocLB JneeLkKtMG KMZPfkZvVS MYsbqDsirs McPqMFUqcA NzdUyWrqOY OIYYaTnQZP OJBjJKeeZu OcrcQdQBgZ PiIIQVJx_O QGiCydplbr QKhdVjLLwE RvZwwGqUaF SAkuUCwuxM ToZkuffhkE VAjvSBkaTb VzUXzygNbP XFEZCYdEbZ XhiHigOaFu ZpZhuh_bjr _SMeCHcQDa _XoAlZUtta cBdwyuFfei eGRNxQIBac elEphDXWIq evGNKXbMob fGTdgXvrMU fNlxSnuvLw fXAnsiThNK gEyCPXwxae jIJfQXERzx kAlPVDIHqc kupipYFMWC lGtKjppdrg oVOTWESvOj pTdmeaLKFj roSsYXeZph rxYxVnXoam uHGZCjsWZg wmSBvSwwIY xNzyEidbgx ycNvDjgyOC zjjDlapINo zuQGtPX_Ls
+25
+PiIIQVJx_O - _SMeCHcQDa : 3 - 10
+evGNKXbMob - HOqLHJXPyx : 2 - 7
+evGNKXbMob - JemWPiII_d : 5 - 12
+OcrcQdQBgZ - wmSBvSwwIY : 1 - 5
+GfrusgoPzK - JneeLkKtMG : 2 - 10
+ETQcYBxlAs - kAlPVDIHqc : 8 - 16
+rxYxVnXoam - gEyCPXwxae : 5 - 7
+OIYYaTnQZP - QGiCydplbr : 8 - 9
+ILKsYqXtXP - NzdUyWrqOY : 2 - 8
+eGRNxQIBac - _XoAlZUtta : 2 - 8
+zuQGtPX_Ls - XhiHigOaFu : 10 - 15
+JneeLkKtMG - rxYxVnXoam : 10 - 19
+fXAnsiThNK - NzdUyWrqOY : 9 - 18
+oVOTWESvOj - MYsbqDsirs : 4 - 12
+zuQGtPX_Ls - xNzyEidbgx : 8 - 11
+XhiHigOaFu - oVOTWESvOj : 9 - 17
+jIJfQXERzx - xNzyEidbgx : 9 - 13
+KMZPfkZvVS - pTdmeaLKFj : 5 - 12
+XFEZCYdEbZ - fXAnsiThNK : 10 - 14
+ToZkuffhkE - OJBjJKeeZu : 9 - 18
+PiIIQVJx_O - GykDJvQbzP : 6 - 15
+gEyCPXwxae - PiIIQVJx_O : 1 - 8
+OJBjJKeeZu - JhelueocLB : 8 - 9
+OJBjJKeeZu - _XoAlZUtta : 10 - 15
+OcrcQdQBgZ - SAkuUCwuxM : 5 - 13

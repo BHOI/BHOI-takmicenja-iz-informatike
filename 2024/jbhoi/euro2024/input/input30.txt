@@ -1,0 +1,15 @@
+3
+QkLYwVKxbw qbPsLYtbFA vDkpslLzVF
+12
+QkLYwVKxbw - qbPsLYtbFA : 4 - 2
+QkLYwVKxbw - vDkpslLzVF : 4 - 2
+qbPsLYtbFA - QkLYwVKxbw : 2 - 0
+qbPsLYtbFA - vDkpslLzVF : 2 - 0
+vDkpslLzVF - QkLYwVKxbw : 1 - 0
+vDkpslLzVF - qbPsLYtbFA : 4 - 2
+QkLYwVKxbw - qbPsLYtbFA : 2 - 0
+QkLYwVKxbw - vDkpslLzVF : 1 - 0
+qbPsLYtbFA - QkLYwVKxbw : 3 - 1
+qbPsLYtbFA - vDkpslLzVF : 1 - 0
+vDkpslLzVF - QkLYwVKxbw : 4 - 2
+vDkpslLzVF - qbPsLYtbFA : 3 - 2

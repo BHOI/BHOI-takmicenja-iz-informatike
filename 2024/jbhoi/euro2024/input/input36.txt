@@ -1,0 +1,19 @@
+5
+EMdMlmTOfH QhRpXouzXi VCqFTFkbCm ctWrTrWCbt ycMqNHEPoQ
+16
+EMdMlmTOfH - VCqFTFkbCm : 8 - 0
+EMdMlmTOfH - QhRpXouzXi : 7 - 7
+ycMqNHEPoQ - VCqFTFkbCm : 10 - 0
+VCqFTFkbCm - ctWrTrWCbt : 7 - 0
+QhRpXouzXi - ycMqNHEPoQ : 0 - 4
+VCqFTFkbCm - EMdMlmTOfH : 10 - 8
+ycMqNHEPoQ - VCqFTFkbCm : 6 - 9
+VCqFTFkbCm - ycMqNHEPoQ : 7 - 3
+QhRpXouzXi - ctWrTrWCbt : 2 - 5
+QhRpXouzXi - ctWrTrWCbt : 0 - 0
+QhRpXouzXi - ctWrTrWCbt : 10 - 7
+QhRpXouzXi - ctWrTrWCbt : 7 - 9
+ycMqNHEPoQ - EMdMlmTOfH : 5 - 3
+QhRpXouzXi - ctWrTrWCbt : 4 - 1
+EMdMlmTOfH - VCqFTFkbCm : 7 - 7
+VCqFTFkbCm - ctWrTrWCbt : 9 - 4
