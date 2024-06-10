@@ -1,0 +1,1999 @@
+Ucenik 1:NE
+Ucenik 2:NE
+Ucenik 3:DA zlato
+Ucenik 4:DA bronza
+Ucenik 5:NE
+Ucenik 6:DA srebro
+Ucenik 7:DA zlato
+Ucenik 8:NE
+Ucenik 9:NE
+Ucenik 10:DA srebro
+Ucenik 11:DA bronza
+Ucenik 12:NE
+Ucenik 13:DA bronza
+Ucenik 14:NE
+Ucenik 15:NE
+Ucenik 16:DA srebro
+Ucenik 17:DA bronza
+Ucenik 18:DA bronza
+Ucenik 19:NE
+Ucenik 20:NE
+Ucenik 21:DA srebro
+Ucenik 22:DA srebro
+Ucenik 23:DA srebro
+Ucenik 24:DA srebro
+Ucenik 25:NE
+Ucenik 26:DA bronza
+Ucenik 27:DA zlato
+Ucenik 28:NE
+Ucenik 29:DA bronza
+Ucenik 30:NE
+Ucenik 31:DA srebro
+Ucenik 32:NE
+Ucenik 33:DA bronza
+Ucenik 34:DA bronza
+Ucenik 35:DA bronza
+Ucenik 36:NE
+Ucenik 37:DA zlato
+Ucenik 38:DA bronza
+Ucenik 39:NE
+Ucenik 40:NE
+Ucenik 41:DA zlato
+Ucenik 42:DA bronza
+Ucenik 43:DA bronza
+Ucenik 44:NE
+Ucenik 45:DA srebro
+Ucenik 46:NE
+Ucenik 47:NE
+Ucenik 48:DA srebro
+Ucenik 49:NE
+Ucenik 50:NE
+Ucenik 51:NE
+Ucenik 52:NE
+Ucenik 53:DA srebro
+Ucenik 54:DA bronza
+Ucenik 55:NE
+Ucenik 56:DA bronza
+Ucenik 57:DA srebro
+Ucenik 58:NE
+Ucenik 59:NE
+Ucenik 60:NE
+Ucenik 61:DA srebro
+Ucenik 62:NE
+Ucenik 63:DA bronza
+Ucenik 64:DA srebro
+Ucenik 65:NE
+Ucenik 66:DA bronza
+Ucenik 67:DA bronza
+Ucenik 68:NE
+Ucenik 69:DA zlato
+Ucenik 70:NE
+Ucenik 71:DA bronza
+Ucenik 72:NE
+Ucenik 73:DA bronza
+Ucenik 74:DA bronza
+Ucenik 75:NE
+Ucenik 76:DA bronza
+Ucenik 77:DA srebro
+Ucenik 78:NE
+Ucenik 79:DA bronza
+Ucenik 80:DA bronza
+Ucenik 81:DA srebro
+Ucenik 82:NE
+Ucenik 83:DA bronza
+Ucenik 84:NE
+Ucenik 85:DA zlato
+Ucenik 86:NE
+Ucenik 87:NE
+Ucenik 88:DA bronza
+Ucenik 89:DA bronza
+Ucenik 90:NE
+Ucenik 91:NE
+Ucenik 92:NE
+Ucenik 93:NE
+Ucenik 94:DA bronza
+Ucenik 95:NE
+Ucenik 96:NE
+Ucenik 97:DA bronza
+Ucenik 98:NE
+Ucenik 99:DA zlato
+Ucenik 100:DA zlato
+Ucenik 101:DA zlato
+Ucenik 102:DA srebro
+Ucenik 103:DA srebro
+Ucenik 104:NE
+Ucenik 105:NE
+Ucenik 106:DA zlato
+Ucenik 107:NE
+Ucenik 108:NE
+Ucenik 109:NE
+Ucenik 110:NE
+Ucenik 111:DA bronza
+Ucenik 112:DA bronza
+Ucenik 113:NE
+Ucenik 114:NE
+Ucenik 115:NE
+Ucenik 116:DA bronza
+Ucenik 117:NE
+Ucenik 118:DA srebro
+Ucenik 119:DA zlato
+Ucenik 120:DA srebro
+Ucenik 121:DA bronza
+Ucenik 122:DA srebro
+Ucenik 123:DA bronza
+Ucenik 124:NE
+Ucenik 125:DA srebro
+Ucenik 126:NE
+Ucenik 127:NE
+Ucenik 128:DA srebro
+Ucenik 129:DA srebro
+Ucenik 130:DA bronza
+Ucenik 131:NE
+Ucenik 132:NE
+Ucenik 133:DA bronza
+Ucenik 134:DA srebro
+Ucenik 135:NE
+Ucenik 136:DA srebro
+Ucenik 137:DA srebro
+Ucenik 138:NE
+Ucenik 139:NE
+Ucenik 140:NE
+Ucenik 141:NE
+Ucenik 142:NE
+Ucenik 143:DA zlato
+Ucenik 144:DA bronza
+Ucenik 145:DA bronza
+Ucenik 146:NE
+Ucenik 147:NE
+Ucenik 148:NE
+Ucenik 149:DA bronza
+Ucenik 150:DA bronza
+Ucenik 151:NE
+Ucenik 152:DA zlato
+Ucenik 153:DA srebro
+Ucenik 154:NE
+Ucenik 155:DA bronza
+Ucenik 156:DA bronza
+Ucenik 157:NE
+Ucenik 158:DA zlato
+Ucenik 159:NE
+Ucenik 160:DA bronza
+Ucenik 161:DA srebro
+Ucenik 162:NE
+Ucenik 163:DA bronza
+Ucenik 164:DA srebro
+Ucenik 165:DA bronza
+Ucenik 166:NE
+Ucenik 167:NE
+Ucenik 168:NE
+Ucenik 169:NE
+Ucenik 170:NE
+Ucenik 171:NE
+Ucenik 172:DA srebro
+Ucenik 173:DA srebro
+Ucenik 174:NE
+Ucenik 175:NE
+Ucenik 176:NE
+Ucenik 177:DA bronza
+Ucenik 178:DA zlato
+Ucenik 179:DA bronza
+Ucenik 180:NE
+Ucenik 181:DA zlato
+Ucenik 182:NE
+Ucenik 183:DA zlato
+Ucenik 184:NE
+Ucenik 185:NE
+Ucenik 186:NE
+Ucenik 187:DA bronza
+Ucenik 188:DA bronza
+Ucenik 189:DA zlato
+Ucenik 190:NE
+Ucenik 191:NE
+Ucenik 192:NE
+Ucenik 193:NE
+Ucenik 194:DA bronza
+Ucenik 195:NE
+Ucenik 196:NE
+Ucenik 197:NE
+Ucenik 198:DA zlato
+Ucenik 199:NE
+Ucenik 200:DA bronza
+Ucenik 201:NE
+Ucenik 202:NE
+Ucenik 203:DA srebro
+Ucenik 204:DA bronza
+Ucenik 205:NE
+Ucenik 206:DA srebro
+Ucenik 207:DA bronza
+Ucenik 208:NE
+Ucenik 209:DA srebro
+Ucenik 210:DA bronza
+Ucenik 211:NE
+Ucenik 212:DA srebro
+Ucenik 213:DA srebro
+Ucenik 214:NE
+Ucenik 215:NE
+Ucenik 216:DA bronza
+Ucenik 217:DA srebro
+Ucenik 218:NE
+Ucenik 219:NE
+Ucenik 220:DA bronza
+Ucenik 221:NE
+Ucenik 222:NE
+Ucenik 223:DA bronza
+Ucenik 224:DA bronza
+Ucenik 225:DA zlato
+Ucenik 226:DA srebro
+Ucenik 227:DA srebro
+Ucenik 228:NE
+Ucenik 229:DA srebro
+Ucenik 230:DA bronza
+Ucenik 231:DA srebro
+Ucenik 232:DA bronza
+Ucenik 233:NE
+Ucenik 234:DA srebro
+Ucenik 235:NE
+Ucenik 236:NE
+Ucenik 237:DA bronza
+Ucenik 238:NE
+Ucenik 239:DA bronza
+Ucenik 240:DA bronza
+Ucenik 241:DA srebro
+Ucenik 242:NE
+Ucenik 243:NE
+Ucenik 244:DA srebro
+Ucenik 245:NE
+Ucenik 246:DA srebro
+Ucenik 247:NE
+Ucenik 248:NE
+Ucenik 249:DA srebro
+Ucenik 250:DA srebro
+Ucenik 251:NE
+Ucenik 252:NE
+Ucenik 253:NE
+Ucenik 254:NE
+Ucenik 255:DA srebro
+Ucenik 256:DA bronza
+Ucenik 257:DA srebro
+Ucenik 258:NE
+Ucenik 259:NE
+Ucenik 260:DA bronza
+Ucenik 261:DA bronza
+Ucenik 262:NE
+Ucenik 263:DA srebro
+Ucenik 264:NE
+Ucenik 265:DA srebro
+Ucenik 266:NE
+Ucenik 267:DA srebro
+Ucenik 268:DA bronza
+Ucenik 269:DA bronza
+Ucenik 270:DA zlato
+Ucenik 271:DA zlato
+Ucenik 272:NE
+Ucenik 273:DA bronza
+Ucenik 274:DA bronza
+Ucenik 275:DA bronza
+Ucenik 276:NE
+Ucenik 277:DA srebro
+Ucenik 278:DA srebro
+Ucenik 279:NE
+Ucenik 280:DA zlato
+Ucenik 281:NE
+Ucenik 282:DA srebro
+Ucenik 283:NE
+Ucenik 284:DA bronza
+Ucenik 285:NE
+Ucenik 286:DA bronza
+Ucenik 287:NE
+Ucenik 288:NE
+Ucenik 289:NE
+Ucenik 290:DA bronza
+Ucenik 291:DA srebro
+Ucenik 292:DA srebro
+Ucenik 293:DA srebro
+Ucenik 294:DA bronza
+Ucenik 295:NE
+Ucenik 296:NE
+Ucenik 297:DA bronza
+Ucenik 298:NE
+Ucenik 299:NE
+Ucenik 300:NE
+Ucenik 301:NE
+Ucenik 302:NE
+Ucenik 303:NE
+Ucenik 304:DA zlato
+Ucenik 305:NE
+Ucenik 306:DA bronza
+Ucenik 307:NE
+Ucenik 308:NE
+Ucenik 309:NE
+Ucenik 310:NE
+Ucenik 311:DA srebro
+Ucenik 312:NE
+Ucenik 313:NE
+Ucenik 314:NE
+Ucenik 315:DA bronza
+Ucenik 316:DA zlato
+Ucenik 317:DA srebro
+Ucenik 318:NE
+Ucenik 319:NE
+Ucenik 320:NE
+Ucenik 321:DA srebro
+Ucenik 322:DA bronza
+Ucenik 323:DA srebro
+Ucenik 324:DA zlato
+Ucenik 325:DA bronza
+Ucenik 326:NE
+Ucenik 327:DA zlato
+Ucenik 328:NE
+Ucenik 329:NE
+Ucenik 330:NE
+Ucenik 331:DA srebro
+Ucenik 332:DA bronza
+Ucenik 333:DA srebro
+Ucenik 334:DA srebro
+Ucenik 335:DA bronza
+Ucenik 336:NE
+Ucenik 337:DA srebro
+Ucenik 338:NE
+Ucenik 339:DA srebro
+Ucenik 340:NE
+Ucenik 341:DA bronza
+Ucenik 342:DA bronza
+Ucenik 343:DA srebro
+Ucenik 344:NE
+Ucenik 345:NE
+Ucenik 346:NE
+Ucenik 347:NE
+Ucenik 348:DA srebro
+Ucenik 349:DA srebro
+Ucenik 350:DA srebro
+Ucenik 351:DA zlato
+Ucenik 352:DA srebro
+Ucenik 353:DA srebro
+Ucenik 354:DA zlato
+Ucenik 355:DA srebro
+Ucenik 356:NE
+Ucenik 357:NE
+Ucenik 358:DA zlato
+Ucenik 359:DA bronza
+Ucenik 360:DA zlato
+Ucenik 361:DA zlato
+Ucenik 362:DA bronza
+Ucenik 363:DA srebro
+Ucenik 364:DA srebro
+Ucenik 365:DA srebro
+Ucenik 366:DA bronza
+Ucenik 367:NE
+Ucenik 368:DA zlato
+Ucenik 369:DA zlato
+Ucenik 370:DA srebro
+Ucenik 371:DA bronza
+Ucenik 372:DA bronza
+Ucenik 373:DA bronza
+Ucenik 374:NE
+Ucenik 375:DA bronza
+Ucenik 376:NE
+Ucenik 377:NE
+Ucenik 378:DA srebro
+Ucenik 379:DA srebro
+Ucenik 380:DA srebro
+Ucenik 381:DA bronza
+Ucenik 382:NE
+Ucenik 383:DA srebro
+Ucenik 384:DA srebro
+Ucenik 385:NE
+Ucenik 386:NE
+Ucenik 387:DA bronza
+Ucenik 388:NE
+Ucenik 389:DA bronza
+Ucenik 390:DA srebro
+Ucenik 391:NE
+Ucenik 392:DA srebro
+Ucenik 393:DA zlato
+Ucenik 394:DA srebro
+Ucenik 395:NE
+Ucenik 396:DA bronza
+Ucenik 397:DA zlato
+Ucenik 398:NE
+Ucenik 399:NE
+Ucenik 400:DA bronza
+Ucenik 401:DA bronza
+Ucenik 402:DA srebro
+Ucenik 403:NE
+Ucenik 404:DA bronza
+Ucenik 405:NE
+Ucenik 406:DA srebro
+Ucenik 407:DA srebro
+Ucenik 408:DA bronza
+Ucenik 409:DA zlato
+Ucenik 410:NE
+Ucenik 411:NE
+Ucenik 412:DA bronza
+Ucenik 413:DA zlato
+Ucenik 414:DA bronza
+Ucenik 415:DA bronza
+Ucenik 416:NE
+Ucenik 417:DA bronza
+Ucenik 418:DA zlato
+Ucenik 419:DA bronza
+Ucenik 420:NE
+Ucenik 421:DA bronza
+Ucenik 422:NE
+Ucenik 423:DA srebro
+Ucenik 424:DA bronza
+Ucenik 425:DA bronza
+Ucenik 426:NE
+Ucenik 427:DA bronza
+Ucenik 428:DA zlato
+Ucenik 429:NE
+Ucenik 430:NE
+Ucenik 431:NE
+Ucenik 432:NE
+Ucenik 433:DA zlato
+Ucenik 434:NE
+Ucenik 435:NE
+Ucenik 436:NE
+Ucenik 437:DA bronza
+Ucenik 438:DA srebro
+Ucenik 439:NE
+Ucenik 440:NE
+Ucenik 441:NE
+Ucenik 442:DA bronza
+Ucenik 443:NE
+Ucenik 444:NE
+Ucenik 445:DA bronza
+Ucenik 446:DA srebro
+Ucenik 447:DA bronza
+Ucenik 448:NE
+Ucenik 449:NE
+Ucenik 450:DA bronza
+Ucenik 451:DA bronza
+Ucenik 452:NE
+Ucenik 453:DA bronza
+Ucenik 454:NE
+Ucenik 455:NE
+Ucenik 456:DA bronza
+Ucenik 457:DA srebro
+Ucenik 458:DA zlato
+Ucenik 459:DA bronza
+Ucenik 460:NE
+Ucenik 461:NE
+Ucenik 462:DA srebro
+Ucenik 463:DA bronza
+Ucenik 464:DA bronza
+Ucenik 465:DA bronza
+Ucenik 466:DA srebro
+Ucenik 467:DA zlato
+Ucenik 468:NE
+Ucenik 469:DA srebro
+Ucenik 470:DA zlato
+Ucenik 471:NE
+Ucenik 472:DA srebro
+Ucenik 473:DA bronza
+Ucenik 474:DA bronza
+Ucenik 475:DA srebro
+Ucenik 476:DA bronza
+Ucenik 477:NE
+Ucenik 478:NE
+Ucenik 479:DA bronza
+Ucenik 480:NE
+Ucenik 481:NE
+Ucenik 482:DA bronza
+Ucenik 483:DA bronza
+Ucenik 484:DA bronza
+Ucenik 485:DA bronza
+Ucenik 486:DA bronza
+Ucenik 487:NE
+Ucenik 488:DA bronza
+Ucenik 489:DA srebro
+Ucenik 490:DA bronza
+Ucenik 491:DA zlato
+Ucenik 492:NE
+Ucenik 493:DA bronza
+Ucenik 494:NE
+Ucenik 495:DA zlato
+Ucenik 496:NE
+Ucenik 497:NE
+Ucenik 498:NE
+Ucenik 499:NE
+Ucenik 500:NE
+Ucenik 501:NE
+Ucenik 502:DA zlato
+Ucenik 503:NE
+Ucenik 504:DA bronza
+Ucenik 505:DA srebro
+Ucenik 506:DA bronza
+Ucenik 507:NE
+Ucenik 508:NE
+Ucenik 509:NE
+Ucenik 510:DA srebro
+Ucenik 511:NE
+Ucenik 512:DA srebro
+Ucenik 513:NE
+Ucenik 514:DA bronza
+Ucenik 515:NE
+Ucenik 516:DA zlato
+Ucenik 517:DA zlato
+Ucenik 518:NE
+Ucenik 519:DA bronza
+Ucenik 520:DA bronza
+Ucenik 521:NE
+Ucenik 522:NE
+Ucenik 523:NE
+Ucenik 524:NE
+Ucenik 525:DA srebro
+Ucenik 526:DA bronza
+Ucenik 527:DA srebro
+Ucenik 528:DA bronza
+Ucenik 529:DA bronza
+Ucenik 530:NE
+Ucenik 531:NE
+Ucenik 532:NE
+Ucenik 533:DA bronza
+Ucenik 534:NE
+Ucenik 535:NE
+Ucenik 536:NE
+Ucenik 537:DA srebro
+Ucenik 538:DA srebro
+Ucenik 539:DA zlato
+Ucenik 540:NE
+Ucenik 541:DA zlato
+Ucenik 542:NE
+Ucenik 543:DA zlato
+Ucenik 544:DA bronza
+Ucenik 545:NE
+Ucenik 546:DA zlato
+Ucenik 547:NE
+Ucenik 548:NE
+Ucenik 549:DA srebro
+Ucenik 550:DA zlato
+Ucenik 551:DA srebro
+Ucenik 552:NE
+Ucenik 553:DA bronza
+Ucenik 554:DA srebro
+Ucenik 555:NE
+Ucenik 556:NE
+Ucenik 557:DA srebro
+Ucenik 558:NE
+Ucenik 559:DA srebro
+Ucenik 560:DA bronza
+Ucenik 561:DA srebro
+Ucenik 562:DA srebro
+Ucenik 563:NE
+Ucenik 564:NE
+Ucenik 565:NE
+Ucenik 566:DA bronza
+Ucenik 567:DA srebro
+Ucenik 568:DA zlato
+Ucenik 569:NE
+Ucenik 570:NE
+Ucenik 571:DA bronza
+Ucenik 572:NE
+Ucenik 573:DA srebro
+Ucenik 574:DA srebro
+Ucenik 575:NE
+Ucenik 576:DA bronza
+Ucenik 577:DA bronza
+Ucenik 578:DA bronza
+Ucenik 579:DA srebro
+Ucenik 580:DA srebro
+Ucenik 581:DA bronza
+Ucenik 582:NE
+Ucenik 583:DA bronza
+Ucenik 584:NE
+Ucenik 585:DA srebro
+Ucenik 586:DA bronza
+Ucenik 587:NE
+Ucenik 588:NE
+Ucenik 589:DA bronza
+Ucenik 590:NE
+Ucenik 591:DA bronza
+Ucenik 592:NE
+Ucenik 593:DA bronza
+Ucenik 594:NE
+Ucenik 595:DA zlato
+Ucenik 596:NE
+Ucenik 597:NE
+Ucenik 598:DA bronza
+Ucenik 599:DA srebro
+Ucenik 600:DA bronza
+Ucenik 601:NE
+Ucenik 602:NE
+Ucenik 603:DA bronza
+Ucenik 604:NE
+Ucenik 605:NE
+Ucenik 606:NE
+Ucenik 607:NE
+Ucenik 608:DA srebro
+Ucenik 609:NE
+Ucenik 610:DA bronza
+Ucenik 611:NE
+Ucenik 612:NE
+Ucenik 613:DA bronza
+Ucenik 614:NE
+Ucenik 615:DA srebro
+Ucenik 616:NE
+Ucenik 617:DA bronza
+Ucenik 618:DA bronza
+Ucenik 619:DA bronza
+Ucenik 620:NE
+Ucenik 621:DA bronza
+Ucenik 622:DA srebro
+Ucenik 623:NE
+Ucenik 624:NE
+Ucenik 625:NE
+Ucenik 626:NE
+Ucenik 627:NE
+Ucenik 628:NE
+Ucenik 629:DA bronza
+Ucenik 630:NE
+Ucenik 631:DA zlato
+Ucenik 632:DA bronza
+Ucenik 633:DA zlato
+Ucenik 634:DA zlato
+Ucenik 635:DA srebro
+Ucenik 636:NE
+Ucenik 637:NE
+Ucenik 638:DA bronza
+Ucenik 639:DA bronza
+Ucenik 640:DA srebro
+Ucenik 641:DA bronza
+Ucenik 642:NE
+Ucenik 643:NE
+Ucenik 644:NE
+Ucenik 645:DA bronza
+Ucenik 646:DA srebro
+Ucenik 647:NE
+Ucenik 648:DA srebro
+Ucenik 649:NE
+Ucenik 650:DA srebro
+Ucenik 651:DA srebro
+Ucenik 652:NE
+Ucenik 653:NE
+Ucenik 654:DA bronza
+Ucenik 655:NE
+Ucenik 656:NE
+Ucenik 657:DA zlato
+Ucenik 658:NE
+Ucenik 659:DA srebro
+Ucenik 660:NE
+Ucenik 661:NE
+Ucenik 662:DA bronza
+Ucenik 663:NE
+Ucenik 664:NE
+Ucenik 665:NE
+Ucenik 666:DA bronza
+Ucenik 667:NE
+Ucenik 668:NE
+Ucenik 669:DA bronza
+Ucenik 670:DA bronza
+Ucenik 671:NE
+Ucenik 672:DA srebro
+Ucenik 673:NE
+Ucenik 674:DA srebro
+Ucenik 675:DA bronza
+Ucenik 676:DA zlato
+Ucenik 677:DA bronza
+Ucenik 678:NE
+Ucenik 679:NE
+Ucenik 680:DA bronza
+Ucenik 681:DA srebro
+Ucenik 682:NE
+Ucenik 683:DA bronza
+Ucenik 684:DA bronza
+Ucenik 685:NE
+Ucenik 686:NE
+Ucenik 687:DA srebro
+Ucenik 688:DA srebro
+Ucenik 689:NE
+Ucenik 690:NE
+Ucenik 691:DA bronza
+Ucenik 692:DA bronza
+Ucenik 693:NE
+Ucenik 694:NE
+Ucenik 695:DA bronza
+Ucenik 696:DA srebro
+Ucenik 697:DA zlato
+Ucenik 698:DA bronza
+Ucenik 699:DA bronza
+Ucenik 700:DA bronza
+Ucenik 701:DA bronza
+Ucenik 702:DA bronza
+Ucenik 703:NE
+Ucenik 704:DA bronza
+Ucenik 705:DA zlato
+Ucenik 706:NE
+Ucenik 707:DA bronza
+Ucenik 708:NE
+Ucenik 709:NE
+Ucenik 710:DA srebro
+Ucenik 711:DA bronza
+Ucenik 712:NE
+Ucenik 713:NE
+Ucenik 714:DA zlato
+Ucenik 715:NE
+Ucenik 716:NE
+Ucenik 717:NE
+Ucenik 718:DA bronza
+Ucenik 719:NE
+Ucenik 720:DA bronza
+Ucenik 721:DA srebro
+Ucenik 722:NE
+Ucenik 723:DA zlato
+Ucenik 724:DA bronza
+Ucenik 725:NE
+Ucenik 726:NE
+Ucenik 727:DA srebro
+Ucenik 728:DA bronza
+Ucenik 729:NE
+Ucenik 730:NE
+Ucenik 731:DA zlato
+Ucenik 732:DA srebro
+Ucenik 733:DA bronza
+Ucenik 734:NE
+Ucenik 735:DA srebro
+Ucenik 736:DA srebro
+Ucenik 737:DA zlato
+Ucenik 738:NE
+Ucenik 739:DA srebro
+Ucenik 740:DA zlato
+Ucenik 741:NE
+Ucenik 742:DA bronza
+Ucenik 743:DA zlato
+Ucenik 744:NE
+Ucenik 745:DA srebro
+Ucenik 746:DA bronza
+Ucenik 747:DA zlato
+Ucenik 748:DA srebro
+Ucenik 749:NE
+Ucenik 750:NE
+Ucenik 751:NE
+Ucenik 752:DA srebro
+Ucenik 753:DA bronza
+Ucenik 754:DA srebro
+Ucenik 755:NE
+Ucenik 756:DA srebro
+Ucenik 757:DA bronza
+Ucenik 758:NE
+Ucenik 759:NE
+Ucenik 760:NE
+Ucenik 761:DA zlato
+Ucenik 762:DA srebro
+Ucenik 763:NE
+Ucenik 764:NE
+Ucenik 765:NE
+Ucenik 766:NE
+Ucenik 767:NE
+Ucenik 768:NE
+Ucenik 769:DA srebro
+Ucenik 770:NE
+Ucenik 771:NE
+Ucenik 772:DA bronza
+Ucenik 773:NE
+Ucenik 774:NE
+Ucenik 775:NE
+Ucenik 776:DA zlato
+Ucenik 777:DA srebro
+Ucenik 778:DA bronza
+Ucenik 779:DA zlato
+Ucenik 780:NE
+Ucenik 781:NE
+Ucenik 782:DA bronza
+Ucenik 783:NE
+Ucenik 784:DA bronza
+Ucenik 785:NE
+Ucenik 786:NE
+Ucenik 787:DA srebro
+Ucenik 788:NE
+Ucenik 789:DA bronza
+Ucenik 790:DA bronza
+Ucenik 791:NE
+Ucenik 792:NE
+Ucenik 793:NE
+Ucenik 794:DA bronza
+Ucenik 795:NE
+Ucenik 796:NE
+Ucenik 797:NE
+Ucenik 798:NE
+Ucenik 799:DA srebro
+Ucenik 800:DA srebro
+Ucenik 801:NE
+Ucenik 802:NE
+Ucenik 803:NE
+Ucenik 804:NE
+Ucenik 805:DA srebro
+Ucenik 806:NE
+Ucenik 807:DA srebro
+Ucenik 808:NE
+Ucenik 809:NE
+Ucenik 810:DA srebro
+Ucenik 811:NE
+Ucenik 812:NE
+Ucenik 813:DA bronza
+Ucenik 814:NE
+Ucenik 815:DA bronza
+Ucenik 816:NE
+Ucenik 817:NE
+Ucenik 818:DA srebro
+Ucenik 819:NE
+Ucenik 820:NE
+Ucenik 821:DA zlato
+Ucenik 822:DA bronza
+Ucenik 823:DA bronza
+Ucenik 824:NE
+Ucenik 825:NE
+Ucenik 826:NE
+Ucenik 827:NE
+Ucenik 828:DA zlato
+Ucenik 829:DA bronza
+Ucenik 830:DA srebro
+Ucenik 831:DA srebro
+Ucenik 832:NE
+Ucenik 833:DA zlato
+Ucenik 834:DA bronza
+Ucenik 835:DA srebro
+Ucenik 836:NE
+Ucenik 837:NE
+Ucenik 838:NE
+Ucenik 839:DA bronza
+Ucenik 840:DA srebro
+Ucenik 841:DA bronza
+Ucenik 842:NE
+Ucenik 843:DA bronza
+Ucenik 844:DA zlato
+Ucenik 845:DA bronza
+Ucenik 846:DA bronza
+Ucenik 847:NE
+Ucenik 848:NE
+Ucenik 849:NE
+Ucenik 850:DA srebro
+Ucenik 851:NE
+Ucenik 852:DA bronza
+Ucenik 853:NE
+Ucenik 854:DA srebro
+Ucenik 855:NE
+Ucenik 856:NE
+Ucenik 857:DA bronza
+Ucenik 858:DA srebro
+Ucenik 859:DA bronza
+Ucenik 860:NE
+Ucenik 861:DA bronza
+Ucenik 862:DA srebro
+Ucenik 863:DA zlato
+Ucenik 864:NE
+Ucenik 865:DA srebro
+Ucenik 866:DA bronza
+Ucenik 867:NE
+Ucenik 868:NE
+Ucenik 869:DA srebro
+Ucenik 870:DA bronza
+Ucenik 871:NE
+Ucenik 872:NE
+Ucenik 873:DA zlato
+Ucenik 874:DA bronza
+Ucenik 875:NE
+Ucenik 876:DA bronza
+Ucenik 877:NE
+Ucenik 878:NE
+Ucenik 879:DA srebro
+Ucenik 880:DA zlato
+Ucenik 881:DA bronza
+Ucenik 882:DA zlato
+Ucenik 883:DA zlato
+Ucenik 884:DA bronza
+Ucenik 885:NE
+Ucenik 886:DA zlato
+Ucenik 887:NE
+Ucenik 888:DA srebro
+Ucenik 889:NE
+Ucenik 890:DA bronza
+Ucenik 891:DA srebro
+Ucenik 892:NE
+Ucenik 893:DA bronza
+Ucenik 894:DA bronza
+Ucenik 895:NE
+Ucenik 896:DA bronza
+Ucenik 897:NE
+Ucenik 898:NE
+Ucenik 899:NE
+Ucenik 900:NE
+Ucenik 901:DA bronza
+Ucenik 902:DA zlato
+Ucenik 903:DA srebro
+Ucenik 904:NE
+Ucenik 905:DA zlato
+Ucenik 906:DA srebro
+Ucenik 907:NE
+Ucenik 908:NE
+Ucenik 909:DA srebro
+Ucenik 910:NE
+Ucenik 911:DA bronza
+Ucenik 912:DA srebro
+Ucenik 913:DA srebro
+Ucenik 914:NE
+Ucenik 915:DA srebro
+Ucenik 916:NE
+Ucenik 917:DA bronza
+Ucenik 918:NE
+Ucenik 919:DA srebro
+Ucenik 920:NE
+Ucenik 921:NE
+Ucenik 922:NE
+Ucenik 923:NE
+Ucenik 924:NE
+Ucenik 925:DA srebro
+Ucenik 926:NE
+Ucenik 927:NE
+Ucenik 928:NE
+Ucenik 929:DA bronza
+Ucenik 930:DA srebro
+Ucenik 931:DA zlato
+Ucenik 932:DA srebro
+Ucenik 933:DA bronza
+Ucenik 934:NE
+Ucenik 935:DA srebro
+Ucenik 936:DA srebro
+Ucenik 937:DA srebro
+Ucenik 938:DA srebro
+Ucenik 939:NE
+Ucenik 940:DA bronza
+Ucenik 941:DA zlato
+Ucenik 942:NE
+Ucenik 943:NE
+Ucenik 944:NE
+Ucenik 945:NE
+Ucenik 946:DA bronza
+Ucenik 947:DA bronza
+Ucenik 948:DA srebro
+Ucenik 949:NE
+Ucenik 950:NE
+Ucenik 951:DA bronza
+Ucenik 952:DA bronza
+Ucenik 953:NE
+Ucenik 954:DA zlato
+Ucenik 955:NE
+Ucenik 956:DA srebro
+Ucenik 957:DA bronza
+Ucenik 958:DA bronza
+Ucenik 959:DA bronza
+Ucenik 960:DA zlato
+Ucenik 961:DA bronza
+Ucenik 962:NE
+Ucenik 963:DA bronza
+Ucenik 964:DA bronza
+Ucenik 965:DA zlato
+Ucenik 966:NE
+Ucenik 967:NE
+Ucenik 968:NE
+Ucenik 969:DA bronza
+Ucenik 970:DA srebro
+Ucenik 971:DA bronza
+Ucenik 972:DA zlato
+Ucenik 973:NE
+Ucenik 974:DA bronza
+Ucenik 975:NE
+Ucenik 976:NE
+Ucenik 977:NE
+Ucenik 978:DA srebro
+Ucenik 979:NE
+Ucenik 980:NE
+Ucenik 981:NE
+Ucenik 982:DA bronza
+Ucenik 983:DA zlato
+Ucenik 984:NE
+Ucenik 985:NE
+Ucenik 986:DA bronza
+Ucenik 987:DA bronza
+Ucenik 988:DA zlato
+Ucenik 989:DA bronza
+Ucenik 990:DA zlato
+Ucenik 991:DA bronza
+Ucenik 992:DA bronza
+Ucenik 993:NE
+Ucenik 994:NE
+Ucenik 995:DA bronza
+Ucenik 996:NE
+Ucenik 997:DA zlato
+Ucenik 998:NE
+Ucenik 999:DA srebro
+Ucenik 1000:NE
+Ucenik 1001:DA srebro
+Ucenik 1002:DA bronza
+Ucenik 1003:NE
+Ucenik 1004:NE
+Ucenik 1005:DA zlato
+Ucenik 1006:NE
+Ucenik 1007:NE
+Ucenik 1008:NE
+Ucenik 1009:NE
+Ucenik 1010:DA srebro
+Ucenik 1011:DA bronza
+Ucenik 1012:NE
+Ucenik 1013:DA bronza
+Ucenik 1014:DA srebro
+Ucenik 1015:DA srebro
+Ucenik 1016:DA bronza
+Ucenik 1017:NE
+Ucenik 1018:DA bronza
+Ucenik 1019:NE
+Ucenik 1020:DA srebro
+Ucenik 1021:NE
+Ucenik 1022:DA bronza
+Ucenik 1023:DA bronza
+Ucenik 1024:DA bronza
+Ucenik 1025:DA srebro
+Ucenik 1026:NE
+Ucenik 1027:DA bronza
+Ucenik 1028:NE
+Ucenik 1029:DA srebro
+Ucenik 1030:NE
+Ucenik 1031:NE
+Ucenik 1032:NE
+Ucenik 1033:NE
+Ucenik 1034:NE
+Ucenik 1035:DA bronza
+Ucenik 1036:NE
+Ucenik 1037:DA srebro
+Ucenik 1038:DA bronza
+Ucenik 1039:NE
+Ucenik 1040:NE
+Ucenik 1041:DA bronza
+Ucenik 1042:NE
+Ucenik 1043:DA srebro
+Ucenik 1044:DA bronza
+Ucenik 1045:NE
+Ucenik 1046:DA bronza
+Ucenik 1047:DA srebro
+Ucenik 1048:NE
+Ucenik 1049:NE
+Ucenik 1050:DA bronza
+Ucenik 1051:DA srebro
+Ucenik 1052:DA bronza
+Ucenik 1053:DA srebro
+Ucenik 1054:DA zlato
+Ucenik 1055:DA bronza
+Ucenik 1056:NE
+Ucenik 1057:NE
+Ucenik 1058:NE
+Ucenik 1059:DA bronza
+Ucenik 1060:DA zlato
+Ucenik 1061:NE
+Ucenik 1062:DA bronza
+Ucenik 1063:NE
+Ucenik 1064:DA bronza
+Ucenik 1065:DA srebro
+Ucenik 1066:NE
+Ucenik 1067:DA zlato
+Ucenik 1068:DA srebro
+Ucenik 1069:DA bronza
+Ucenik 1070:DA srebro
+Ucenik 1071:DA srebro
+Ucenik 1072:DA srebro
+Ucenik 1073:DA bronza
+Ucenik 1074:DA srebro
+Ucenik 1075:DA zlato
+Ucenik 1076:NE
+Ucenik 1077:NE
+Ucenik 1078:DA bronza
+Ucenik 1079:NE
+Ucenik 1080:DA bronza
+Ucenik 1081:DA srebro
+Ucenik 1082:DA srebro
+Ucenik 1083:NE
+Ucenik 1084:NE
+Ucenik 1085:NE
+Ucenik 1086:DA srebro
+Ucenik 1087:DA bronza
+Ucenik 1088:NE
+Ucenik 1089:DA zlato
+Ucenik 1090:NE
+Ucenik 1091:DA bronza
+Ucenik 1092:DA srebro
+Ucenik 1093:DA bronza
+Ucenik 1094:NE
+Ucenik 1095:NE
+Ucenik 1096:DA srebro
+Ucenik 1097:NE
+Ucenik 1098:NE
+Ucenik 1099:NE
+Ucenik 1100:NE
+Ucenik 1101:DA srebro
+Ucenik 1102:NE
+Ucenik 1103:DA srebro
+Ucenik 1104:NE
+Ucenik 1105:NE
+Ucenik 1106:NE
+Ucenik 1107:NE
+Ucenik 1108:NE
+Ucenik 1109:NE
+Ucenik 1110:DA bronza
+Ucenik 1111:NE
+Ucenik 1112:DA bronza
+Ucenik 1113:DA srebro
+Ucenik 1114:DA bronza
+Ucenik 1115:NE
+Ucenik 1116:DA zlato
+Ucenik 1117:DA srebro
+Ucenik 1118:NE
+Ucenik 1119:DA zlato
+Ucenik 1120:NE
+Ucenik 1121:NE
+Ucenik 1122:NE
+Ucenik 1123:NE
+Ucenik 1124:DA bronza
+Ucenik 1125:NE
+Ucenik 1126:NE
+Ucenik 1127:DA zlato
+Ucenik 1128:DA zlato
+Ucenik 1129:DA zlato
+Ucenik 1130:NE
+Ucenik 1131:DA bronza
+Ucenik 1132:DA bronza
+Ucenik 1133:NE
+Ucenik 1134:DA zlato
+Ucenik 1135:DA srebro
+Ucenik 1136:NE
+Ucenik 1137:DA bronza
+Ucenik 1138:NE
+Ucenik 1139:DA bronza
+Ucenik 1140:NE
+Ucenik 1141:NE
+Ucenik 1142:DA srebro
+Ucenik 1143:DA srebro
+Ucenik 1144:DA bronza
+Ucenik 1145:NE
+Ucenik 1146:DA srebro
+Ucenik 1147:DA bronza
+Ucenik 1148:DA srebro
+Ucenik 1149:DA zlato
+Ucenik 1150:DA zlato
+Ucenik 1151:DA bronza
+Ucenik 1152:DA srebro
+Ucenik 1153:NE
+Ucenik 1154:DA bronza
+Ucenik 1155:DA srebro
+Ucenik 1156:DA srebro
+Ucenik 1157:NE
+Ucenik 1158:NE
+Ucenik 1159:NE
+Ucenik 1160:NE
+Ucenik 1161:NE
+Ucenik 1162:NE
+Ucenik 1163:NE
+Ucenik 1164:DA bronza
+Ucenik 1165:NE
+Ucenik 1166:NE
+Ucenik 1167:DA srebro
+Ucenik 1168:DA srebro
+Ucenik 1169:NE
+Ucenik 1170:DA srebro
+Ucenik 1171:NE
+Ucenik 1172:DA bronza
+Ucenik 1173:NE
+Ucenik 1174:DA zlato
+Ucenik 1175:DA bronza
+Ucenik 1176:NE
+Ucenik 1177:DA zlato
+Ucenik 1178:DA zlato
+Ucenik 1179:DA zlato
+Ucenik 1180:NE
+Ucenik 1181:NE
+Ucenik 1182:DA bronza
+Ucenik 1183:DA srebro
+Ucenik 1184:DA bronza
+Ucenik 1185:DA bronza
+Ucenik 1186:NE
+Ucenik 1187:DA bronza
+Ucenik 1188:DA srebro
+Ucenik 1189:DA bronza
+Ucenik 1190:DA srebro
+Ucenik 1191:DA srebro
+Ucenik 1192:NE
+Ucenik 1193:DA bronza
+Ucenik 1194:DA srebro
+Ucenik 1195:DA srebro
+Ucenik 1196:DA zlato
+Ucenik 1197:DA bronza
+Ucenik 1198:NE
+Ucenik 1199:NE
+Ucenik 1200:NE
+Ucenik 1201:DA zlato
+Ucenik 1202:NE
+Ucenik 1203:NE
+Ucenik 1204:DA bronza
+Ucenik 1205:NE
+Ucenik 1206:DA srebro
+Ucenik 1207:DA bronza
+Ucenik 1208:DA srebro
+Ucenik 1209:NE
+Ucenik 1210:DA bronza
+Ucenik 1211:DA bronza
+Ucenik 1212:DA bronza
+Ucenik 1213:DA srebro
+Ucenik 1214:NE
+Ucenik 1215:DA bronza
+Ucenik 1216:DA bronza
+Ucenik 1217:DA zlato
+Ucenik 1218:DA srebro
+Ucenik 1219:DA srebro
+Ucenik 1220:DA bronza
+Ucenik 1221:NE
+Ucenik 1222:DA srebro
+Ucenik 1223:NE
+Ucenik 1224:DA bronza
+Ucenik 1225:NE
+Ucenik 1226:NE
+Ucenik 1227:DA zlato
+Ucenik 1228:DA bronza
+Ucenik 1229:DA zlato
+Ucenik 1230:NE
+Ucenik 1231:DA srebro
+Ucenik 1232:NE
+Ucenik 1233:DA bronza
+Ucenik 1234:DA zlato
+Ucenik 1235:DA srebro
+Ucenik 1236:NE
+Ucenik 1237:DA srebro
+Ucenik 1238:NE
+Ucenik 1239:NE
+Ucenik 1240:NE
+Ucenik 1241:DA bronza
+Ucenik 1242:DA bronza
+Ucenik 1243:DA bronza
+Ucenik 1244:NE
+Ucenik 1245:NE
+Ucenik 1246:DA zlato
+Ucenik 1247:NE
+Ucenik 1248:DA srebro
+Ucenik 1249:NE
+Ucenik 1250:NE
+Ucenik 1251:DA srebro
+Ucenik 1252:DA srebro
+Ucenik 1253:NE
+Ucenik 1254:DA srebro
+Ucenik 1255:DA zlato
+Ucenik 1256:DA bronza
+Ucenik 1257:NE
+Ucenik 1258:NE
+Ucenik 1259:NE
+Ucenik 1260:DA bronza
+Ucenik 1261:DA bronza
+Ucenik 1262:NE
+Ucenik 1263:NE
+Ucenik 1264:DA bronza
+Ucenik 1265:DA bronza
+Ucenik 1266:DA bronza
+Ucenik 1267:DA srebro
+Ucenik 1268:DA zlato
+Ucenik 1269:DA bronza
+Ucenik 1270:DA bronza
+Ucenik 1271:NE
+Ucenik 1272:DA bronza
+Ucenik 1273:NE
+Ucenik 1274:NE
+Ucenik 1275:NE
+Ucenik 1276:DA bronza
+Ucenik 1277:NE
+Ucenik 1278:DA srebro
+Ucenik 1279:DA srebro
+Ucenik 1280:DA zlato
+Ucenik 1281:DA zlato
+Ucenik 1282:NE
+Ucenik 1283:NE
+Ucenik 1284:DA bronza
+Ucenik 1285:NE
+Ucenik 1286:NE
+Ucenik 1287:DA bronza
+Ucenik 1288:DA bronza
+Ucenik 1289:DA bronza
+Ucenik 1290:DA zlato
+Ucenik 1291:DA bronza
+Ucenik 1292:DA srebro
+Ucenik 1293:NE
+Ucenik 1294:NE
+Ucenik 1295:NE
+Ucenik 1296:NE
+Ucenik 1297:DA zlato
+Ucenik 1298:NE
+Ucenik 1299:NE
+Ucenik 1300:NE
+Ucenik 1301:NE
+Ucenik 1302:DA bronza
+Ucenik 1303:DA srebro
+Ucenik 1304:NE
+Ucenik 1305:DA srebro
+Ucenik 1306:NE
+Ucenik 1307:NE
+Ucenik 1308:DA srebro
+Ucenik 1309:NE
+Ucenik 1310:NE
+Ucenik 1311:DA bronza
+Ucenik 1312:DA bronza
+Ucenik 1313:NE
+Ucenik 1314:DA bronza
+Ucenik 1315:NE
+Ucenik 1316:NE
+Ucenik 1317:DA srebro
+Ucenik 1318:DA bronza
+Ucenik 1319:DA bronza
+Ucenik 1320:DA srebro
+Ucenik 1321:NE
+Ucenik 1322:DA srebro
+Ucenik 1323:DA srebro
+Ucenik 1324:NE
+Ucenik 1325:DA bronza
+Ucenik 1326:DA bronza
+Ucenik 1327:NE
+Ucenik 1328:NE
+Ucenik 1329:NE
+Ucenik 1330:NE
+Ucenik 1331:DA srebro
+Ucenik 1332:DA zlato
+Ucenik 1333:DA srebro
+Ucenik 1334:DA srebro
+Ucenik 1335:DA zlato
+Ucenik 1336:NE
+Ucenik 1337:DA srebro
+Ucenik 1338:DA bronza
+Ucenik 1339:DA srebro
+Ucenik 1340:DA srebro
+Ucenik 1341:DA zlato
+Ucenik 1342:NE
+Ucenik 1343:NE
+Ucenik 1344:NE
+Ucenik 1345:NE
+Ucenik 1346:DA zlato
+Ucenik 1347:DA srebro
+Ucenik 1348:DA srebro
+Ucenik 1349:DA bronza
+Ucenik 1350:DA srebro
+Ucenik 1351:DA bronza
+Ucenik 1352:NE
+Ucenik 1353:DA zlato
+Ucenik 1354:DA srebro
+Ucenik 1355:DA srebro
+Ucenik 1356:DA bronza
+Ucenik 1357:NE
+Ucenik 1358:NE
+Ucenik 1359:DA srebro
+Ucenik 1360:NE
+Ucenik 1361:DA zlato
+Ucenik 1362:NE
+Ucenik 1363:DA bronza
+Ucenik 1364:DA bronza
+Ucenik 1365:DA srebro
+Ucenik 1366:NE
+Ucenik 1367:DA bronza
+Ucenik 1368:DA bronza
+Ucenik 1369:DA bronza
+Ucenik 1370:NE
+Ucenik 1371:DA srebro
+Ucenik 1372:DA zlato
+Ucenik 1373:NE
+Ucenik 1374:DA srebro
+Ucenik 1375:NE
+Ucenik 1376:DA zlato
+Ucenik 1377:DA bronza
+Ucenik 1378:DA srebro
+Ucenik 1379:DA bronza
+Ucenik 1380:DA srebro
+Ucenik 1381:NE
+Ucenik 1382:DA zlato
+Ucenik 1383:DA bronza
+Ucenik 1384:NE
+Ucenik 1385:NE
+Ucenik 1386:DA srebro
+Ucenik 1387:NE
+Ucenik 1388:NE
+Ucenik 1389:NE
+Ucenik 1390:DA zlato
+Ucenik 1391:DA zlato
+Ucenik 1392:DA zlato
+Ucenik 1393:DA bronza
+Ucenik 1394:DA zlato
+Ucenik 1395:NE
+Ucenik 1396:NE
+Ucenik 1397:DA zlato
+Ucenik 1398:NE
+Ucenik 1399:DA bronza
+Ucenik 1400:NE
+Ucenik 1401:DA zlato
+Ucenik 1402:DA bronza
+Ucenik 1403:DA bronza
+Ucenik 1404:DA bronza
+Ucenik 1405:DA zlato
+Ucenik 1406:DA srebro
+Ucenik 1407:NE
+Ucenik 1408:NE
+Ucenik 1409:DA bronza
+Ucenik 1410:DA bronza
+Ucenik 1411:NE
+Ucenik 1412:NE
+Ucenik 1413:DA zlato
+Ucenik 1414:NE
+Ucenik 1415:NE
+Ucenik 1416:DA srebro
+Ucenik 1417:NE
+Ucenik 1418:DA bronza
+Ucenik 1419:DA bronza
+Ucenik 1420:NE
+Ucenik 1421:DA srebro
+Ucenik 1422:NE
+Ucenik 1423:NE
+Ucenik 1424:DA bronza
+Ucenik 1425:DA zlato
+Ucenik 1426:NE
+Ucenik 1427:DA bronza
+Ucenik 1428:NE
+Ucenik 1429:DA zlato
+Ucenik 1430:DA zlato
+Ucenik 1431:DA bronza
+Ucenik 1432:DA srebro
+Ucenik 1433:DA srebro
+Ucenik 1434:NE
+Ucenik 1435:NE
+Ucenik 1436:DA srebro
+Ucenik 1437:DA bronza
+Ucenik 1438:NE
+Ucenik 1439:NE
+Ucenik 1440:NE
+Ucenik 1441:DA bronza
+Ucenik 1442:DA bronza
+Ucenik 1443:DA srebro
+Ucenik 1444:DA bronza
+Ucenik 1445:DA bronza
+Ucenik 1446:DA bronza
+Ucenik 1447:NE
+Ucenik 1448:NE
+Ucenik 1449:DA bronza
+Ucenik 1450:DA srebro
+Ucenik 1451:NE
+Ucenik 1452:DA srebro
+Ucenik 1453:NE
+Ucenik 1454:NE
+Ucenik 1455:NE
+Ucenik 1456:NE
+Ucenik 1457:DA srebro
+Ucenik 1458:NE
+Ucenik 1459:DA bronza
+Ucenik 1460:DA srebro
+Ucenik 1461:DA bronza
+Ucenik 1462:NE
+Ucenik 1463:NE
+Ucenik 1464:DA zlato
+Ucenik 1465:NE
+Ucenik 1466:DA srebro
+Ucenik 1467:DA bronza
+Ucenik 1468:DA bronza
+Ucenik 1469:DA srebro
+Ucenik 1470:NE
+Ucenik 1471:DA zlato
+Ucenik 1472:DA srebro
+Ucenik 1473:DA zlato
+Ucenik 1474:NE
+Ucenik 1475:NE
+Ucenik 1476:DA zlato
+Ucenik 1477:DA bronza
+Ucenik 1478:NE
+Ucenik 1479:DA bronza
+Ucenik 1480:DA bronza
+Ucenik 1481:DA bronza
+Ucenik 1482:DA bronza
+Ucenik 1483:DA bronza
+Ucenik 1484:DA bronza
+Ucenik 1485:NE
+Ucenik 1486:DA srebro
+Ucenik 1487:DA bronza
+Ucenik 1488:DA bronza
+Ucenik 1489:NE
+Ucenik 1490:DA zlato
+Ucenik 1491:NE
+Ucenik 1492:DA srebro
+Ucenik 1493:NE
+Ucenik 1494:DA srebro
+Ucenik 1495:NE
+Ucenik 1496:NE
+Ucenik 1497:NE
+Ucenik 1498:DA srebro
+Ucenik 1499:DA srebro
+Ucenik 1500:NE
+Ucenik 1501:NE
+Ucenik 1502:DA srebro
+Ucenik 1503:NE
+Ucenik 1504:NE
+Ucenik 1505:NE
+Ucenik 1506:NE
+Ucenik 1507:DA bronza
+Ucenik 1508:DA bronza
+Ucenik 1509:NE
+Ucenik 1510:NE
+Ucenik 1511:NE
+Ucenik 1512:DA srebro
+Ucenik 1513:DA srebro
+Ucenik 1514:NE
+Ucenik 1515:DA srebro
+Ucenik 1516:DA bronza
+Ucenik 1517:NE
+Ucenik 1518:NE
+Ucenik 1519:NE
+Ucenik 1520:NE
+Ucenik 1521:DA zlato
+Ucenik 1522:DA bronza
+Ucenik 1523:DA bronza
+Ucenik 1524:DA srebro
+Ucenik 1525:DA srebro
+Ucenik 1526:NE
+Ucenik 1527:DA bronza
+Ucenik 1528:DA bronza
+Ucenik 1529:DA bronza
+Ucenik 1530:DA srebro
+Ucenik 1531:DA bronza
+Ucenik 1532:DA srebro
+Ucenik 1533:NE
+Ucenik 1534:NE
+Ucenik 1535:DA bronza
+Ucenik 1536:NE
+Ucenik 1537:DA bronza
+Ucenik 1538:DA bronza
+Ucenik 1539:NE
+Ucenik 1540:NE
+Ucenik 1541:DA srebro
+Ucenik 1542:DA bronza
+Ucenik 1543:DA srebro
+Ucenik 1544:NE
+Ucenik 1545:DA bronza
+Ucenik 1546:NE
+Ucenik 1547:DA bronza
+Ucenik 1548:DA zlato
+Ucenik 1549:NE
+Ucenik 1550:DA srebro
+Ucenik 1551:NE
+Ucenik 1552:NE
+Ucenik 1553:DA srebro
+Ucenik 1554:DA bronza
+Ucenik 1555:DA srebro
+Ucenik 1556:NE
+Ucenik 1557:DA srebro
+Ucenik 1558:DA srebro
+Ucenik 1559:NE
+Ucenik 1560:NE
+Ucenik 1561:DA bronza
+Ucenik 1562:NE
+Ucenik 1563:DA srebro
+Ucenik 1564:DA bronza
+Ucenik 1565:DA srebro
+Ucenik 1566:DA srebro
+Ucenik 1567:NE
+Ucenik 1568:DA zlato
+Ucenik 1569:DA srebro
+Ucenik 1570:DA zlato
+Ucenik 1571:DA srebro
+Ucenik 1572:DA bronza
+Ucenik 1573:DA srebro
+Ucenik 1574:NE
+Ucenik 1575:NE
+Ucenik 1576:DA bronza
+Ucenik 1577:NE
+Ucenik 1578:NE
+Ucenik 1579:NE
+Ucenik 1580:NE
+Ucenik 1581:NE
+Ucenik 1582:NE
+Ucenik 1583:NE
+Ucenik 1584:DA zlato
+Ucenik 1585:NE
+Ucenik 1586:DA srebro
+Ucenik 1587:DA bronza
+Ucenik 1588:NE
+Ucenik 1589:DA srebro
+Ucenik 1590:NE
+Ucenik 1591:DA srebro
+Ucenik 1592:NE
+Ucenik 1593:NE
+Ucenik 1594:DA srebro
+Ucenik 1595:NE
+Ucenik 1596:DA bronza
+Ucenik 1597:DA bronza
+Ucenik 1598:NE
+Ucenik 1599:DA bronza
+Ucenik 1600:NE
+Ucenik 1601:DA srebro
+Ucenik 1602:DA bronza
+Ucenik 1603:NE
+Ucenik 1604:NE
+Ucenik 1605:DA zlato
+Ucenik 1606:NE
+Ucenik 1607:NE
+Ucenik 1608:DA bronza
+Ucenik 1609:NE
+Ucenik 1610:DA srebro
+Ucenik 1611:DA bronza
+Ucenik 1612:NE
+Ucenik 1613:DA bronza
+Ucenik 1614:DA srebro
+Ucenik 1615:DA bronza
+Ucenik 1616:NE
+Ucenik 1617:DA srebro
+Ucenik 1618:NE
+Ucenik 1619:DA bronza
+Ucenik 1620:DA srebro
+Ucenik 1621:DA srebro
+Ucenik 1622:DA zlato
+Ucenik 1623:DA bronza
+Ucenik 1624:DA bronza
+Ucenik 1625:DA bronza
+Ucenik 1626:DA bronza
+Ucenik 1627:NE
+Ucenik 1628:DA srebro
+Ucenik 1629:DA zlato
+Ucenik 1630:NE
+Ucenik 1631:NE
+Ucenik 1632:DA bronza
+Ucenik 1633:DA srebro
+Ucenik 1634:NE
+Ucenik 1635:DA zlato
+Ucenik 1636:NE
+Ucenik 1637:DA bronza
+Ucenik 1638:NE
+Ucenik 1639:DA bronza
+Ucenik 1640:DA bronza
+Ucenik 1641:NE
+Ucenik 1642:NE
+Ucenik 1643:DA srebro
+Ucenik 1644:NE
+Ucenik 1645:DA bronza
+Ucenik 1646:DA zlato
+Ucenik 1647:NE
+Ucenik 1648:DA srebro
+Ucenik 1649:DA srebro
+Ucenik 1650:DA bronza
+Ucenik 1651:DA bronza
+Ucenik 1652:DA bronza
+Ucenik 1653:DA srebro
+Ucenik 1654:NE
+Ucenik 1655:DA bronza
+Ucenik 1656:DA bronza
+Ucenik 1657:NE
+Ucenik 1658:NE
+Ucenik 1659:DA srebro
+Ucenik 1660:DA bronza
+Ucenik 1661:DA bronza
+Ucenik 1662:DA srebro
+Ucenik 1663:NE
+Ucenik 1664:DA srebro
+Ucenik 1665:NE
+Ucenik 1666:NE
+Ucenik 1667:NE
+Ucenik 1668:DA srebro
+Ucenik 1669:NE
+Ucenik 1670:DA bronza
+Ucenik 1671:DA bronza
+Ucenik 1672:DA srebro
+Ucenik 1673:NE
+Ucenik 1674:NE
+Ucenik 1675:DA bronza
+Ucenik 1676:DA srebro
+Ucenik 1677:DA bronza
+Ucenik 1678:DA zlato
+Ucenik 1679:DA zlato
+Ucenik 1680:DA bronza
+Ucenik 1681:NE
+Ucenik 1682:DA bronza
+Ucenik 1683:NE
+Ucenik 1684:NE
+Ucenik 1685:DA srebro
+Ucenik 1686:NE
+Ucenik 1687:DA srebro
+Ucenik 1688:NE
+Ucenik 1689:NE
+Ucenik 1690:DA srebro
+Ucenik 1691:DA srebro
+Ucenik 1692:DA srebro
+Ucenik 1693:NE
+Ucenik 1694:DA bronza
+Ucenik 1695:NE
+Ucenik 1696:DA srebro
+Ucenik 1697:DA bronza
+Ucenik 1698:NE
+Ucenik 1699:DA bronza
+Ucenik 1700:NE
+Ucenik 1701:NE
+Ucenik 1702:DA bronza
+Ucenik 1703:DA bronza
+Ucenik 1704:DA bronza
+Ucenik 1705:DA srebro
+Ucenik 1706:NE
+Ucenik 1707:DA zlato
+Ucenik 1708:DA zlato
+Ucenik 1709:NE
+Ucenik 1710:NE
+Ucenik 1711:NE
+Ucenik 1712:DA bronza
+Ucenik 1713:NE
+Ucenik 1714:NE
+Ucenik 1715:NE
+Ucenik 1716:NE
+Ucenik 1717:NE
+Ucenik 1718:NE
+Ucenik 1719:DA srebro
+Ucenik 1720:NE
+Ucenik 1721:NE
+Ucenik 1722:DA zlato
+Ucenik 1723:NE
+Ucenik 1724:DA srebro
+Ucenik 1725:DA bronza
+Ucenik 1726:DA srebro
+Ucenik 1727:DA bronza
+Ucenik 1728:NE
+Ucenik 1729:NE
+Ucenik 1730:DA srebro
+Ucenik 1731:NE
+Ucenik 1732:DA bronza
+Ucenik 1733:NE
+Ucenik 1734:DA srebro
+Ucenik 1735:NE
+Ucenik 1736:DA bronza
+Ucenik 1737:NE
+Ucenik 1738:DA bronza
+Ucenik 1739:NE
+Ucenik 1740:DA zlato
+Ucenik 1741:NE
+Ucenik 1742:NE
+Ucenik 1743:NE
+Ucenik 1744:NE
+Ucenik 1745:NE
+Ucenik 1746:DA zlato
+Ucenik 1747:NE
+Ucenik 1748:DA srebro
+Ucenik 1749:NE
+Ucenik 1750:NE
+Ucenik 1751:DA bronza
+Ucenik 1752:DA srebro
+Ucenik 1753:NE
+Ucenik 1754:DA zlato
+Ucenik 1755:NE
+Ucenik 1756:DA bronza
+Ucenik 1757:DA srebro
+Ucenik 1758:NE
+Ucenik 1759:DA bronza
+Ucenik 1760:NE
+Ucenik 1761:DA zlato
+Ucenik 1762:NE
+Ucenik 1763:DA bronza
+Ucenik 1764:NE
+Ucenik 1765:NE
+Ucenik 1766:NE
+Ucenik 1767:DA srebro
+Ucenik 1768:DA zlato
+Ucenik 1769:NE
+Ucenik 1770:NE
+Ucenik 1771:DA bronza
+Ucenik 1772:NE
+Ucenik 1773:NE
+Ucenik 1774:DA bronza
+Ucenik 1775:NE
+Ucenik 1776:NE
+Ucenik 1777:DA bronza
+Ucenik 1778:NE
+Ucenik 1779:DA srebro
+Ucenik 1780:DA srebro
+Ucenik 1781:NE
+Ucenik 1782:DA bronza
+Ucenik 1783:DA bronza
+Ucenik 1784:NE
+Ucenik 1785:DA zlato
+Ucenik 1786:NE
+Ucenik 1787:NE
+Ucenik 1788:DA bronza
+Ucenik 1789:NE
+Ucenik 1790:DA bronza
+Ucenik 1791:NE
+Ucenik 1792:NE
+Ucenik 1793:NE
+Ucenik 1794:DA bronza
+Ucenik 1795:DA srebro
+Ucenik 1796:NE
+Ucenik 1797:DA bronza
+Ucenik 1798:NE
+Ucenik 1799:DA bronza
+Ucenik 1800:DA bronza
+Ucenik 1801:NE
+Ucenik 1802:DA srebro
+Ucenik 1803:NE
+Ucenik 1804:DA bronza
+Ucenik 1805:DA bronza
+Ucenik 1806:NE
+Ucenik 1807:DA zlato
+Ucenik 1808:NE
+Ucenik 1809:NE
+Ucenik 1810:NE
+Ucenik 1811:DA srebro
+Ucenik 1812:NE
+Ucenik 1813:DA bronza
+Ucenik 1814:DA bronza
+Ucenik 1815:DA bronza
+Ucenik 1816:DA bronza
+Ucenik 1817:NE
+Ucenik 1818:DA bronza
+Ucenik 1819:NE
+Ucenik 1820:DA zlato
+Ucenik 1821:DA srebro
+Ucenik 1822:NE
+Ucenik 1823:DA bronza
+Ucenik 1824:DA srebro
+Ucenik 1825:NE
+Ucenik 1826:NE
+Ucenik 1827:DA bronza
+Ucenik 1828:DA bronza
+Ucenik 1829:NE
+Ucenik 1830:DA srebro
+Ucenik 1831:DA bronza
+Ucenik 1832:DA bronza
+Ucenik 1833:NE
+Ucenik 1834:NE
+Ucenik 1835:NE
+Ucenik 1836:DA bronza
+Ucenik 1837:NE
+Ucenik 1838:DA srebro
+Ucenik 1839:DA srebro
+Ucenik 1840:NE
+Ucenik 1841:DA srebro
+Ucenik 1842:DA bronza
+Ucenik 1843:DA bronza
+Ucenik 1844:DA bronza
+Ucenik 1845:DA srebro
+Ucenik 1846:NE
+Ucenik 1847:DA bronza
+Ucenik 1848:NE
+Ucenik 1849:NE
+Ucenik 1850:DA bronza
+Ucenik 1851:NE
+Ucenik 1852:DA bronza
+Ucenik 1853:DA zlato
+Ucenik 1854:NE
+Ucenik 1855:DA srebro
+Ucenik 1856:DA srebro
+Ucenik 1857:DA srebro
+Ucenik 1858:NE
+Ucenik 1859:NE
+Ucenik 1860:DA bronza
+Ucenik 1861:DA srebro
+Ucenik 1862:DA srebro
+Ucenik 1863:DA srebro
+Ucenik 1864:DA srebro
+Ucenik 1865:NE
+Ucenik 1866:DA bronza
+Ucenik 1867:DA bronza
+Ucenik 1868:DA bronza
+Ucenik 1869:DA srebro
+Ucenik 1870:NE
+Ucenik 1871:DA bronza
+Ucenik 1872:NE
+Ucenik 1873:DA bronza
+Ucenik 1874:NE
+Ucenik 1875:DA srebro
+Ucenik 1876:NE
+Ucenik 1877:NE
+Ucenik 1878:NE
+Ucenik 1879:DA srebro
+Ucenik 1880:DA srebro
+Ucenik 1881:NE
+Ucenik 1882:DA zlato
+Ucenik 1883:DA bronza
+Ucenik 1884:DA zlato
+Ucenik 1885:NE
+Ucenik 1886:NE
+Ucenik 1887:DA bronza
+Ucenik 1888:NE
+Ucenik 1889:DA bronza
+Ucenik 1890:NE
+Ucenik 1891:NE
+Ucenik 1892:DA srebro
+Ucenik 1893:NE
+Ucenik 1894:NE
+Ucenik 1895:DA zlato
+Ucenik 1896:DA zlato
+Ucenik 1897:NE
+Ucenik 1898:NE
+Ucenik 1899:DA srebro
+Ucenik 1900:NE
+Ucenik 1901:DA zlato
+Ucenik 1902:NE
+Ucenik 1903:NE
+Ucenik 1904:DA srebro
+Ucenik 1905:DA srebro
+Ucenik 1906:DA srebro
+Ucenik 1907:DA bronza
+Ucenik 1908:DA bronza
+Ucenik 1909:DA zlato
+Ucenik 1910:DA srebro
+Ucenik 1911:DA srebro
+Ucenik 1912:NE
+Ucenik 1913:DA zlato
+Ucenik 1914:NE
+Ucenik 1915:DA srebro
+Ucenik 1916:NE
+Ucenik 1917:DA bronza
+Ucenik 1918:DA srebro
+Ucenik 1919:DA bronza
+Ucenik 1920:NE
+Ucenik 1921:DA bronza
+Ucenik 1922:NE
+Ucenik 1923:DA bronza
+Ucenik 1924:DA zlato
+Ucenik 1925:DA bronza
+Ucenik 1926:NE
+Ucenik 1927:DA srebro
+Ucenik 1928:DA srebro
+Ucenik 1929:DA zlato
+Ucenik 1930:NE
+Ucenik 1931:DA srebro
+Ucenik 1932:DA bronza
+Ucenik 1933:DA srebro
+Ucenik 1934:DA srebro
+Ucenik 1935:DA bronza
+Ucenik 1936:DA srebro
+Ucenik 1937:DA srebro
+Ucenik 1938:DA srebro
+Ucenik 1939:NE
+Ucenik 1940:NE
+Ucenik 1941:DA bronza
+Ucenik 1942:NE
+Ucenik 1943:DA bronza
+Ucenik 1944:NE
+Ucenik 1945:DA zlato
+Ucenik 1946:DA bronza
+Ucenik 1947:NE
+Ucenik 1948:DA bronza
+Ucenik 1949:NE
+Ucenik 1950:DA zlato
+Ucenik 1951:DA bronza
+Ucenik 1952:NE
+Ucenik 1953:DA bronza
+Ucenik 1954:DA bronza
+Ucenik 1955:NE
+Ucenik 1956:DA zlato
+Ucenik 1957:NE
+Ucenik 1958:DA bronza
+Ucenik 1959:NE
+Ucenik 1960:DA zlato
+Ucenik 1961:NE
+Ucenik 1962:DA bronza
+Ucenik 1963:DA srebro
+Ucenik 1964:DA srebro
+Ucenik 1965:NE
+Ucenik 1966:DA bronza
+Ucenik 1967:DA srebro
+Ucenik 1968:DA srebro
+Ucenik 1969:DA bronza
+Ucenik 1970:DA bronza
+Ucenik 1971:DA bronza
+Ucenik 1972:NE
+Ucenik 1973:DA bronza
+Ucenik 1974:DA srebro
+Ucenik 1975:NE
+Ucenik 1976:DA bronza
+Ucenik 1977:DA bronza
+Ucenik 1978:NE
+Ucenik 1979:NE
+Ucenik 1980:DA srebro
+Ucenik 1981:DA zlato
+Ucenik 1982:DA srebro
+Ucenik 1983:DA bronza
+Ucenik 1984:DA bronza
+Ucenik 1985:DA srebro
+Ucenik 1986:NE
+Ucenik 1987:DA zlato
+Ucenik 1988:NE
+Ucenik 1989:DA srebro
+Ucenik 1990:NE
+Ucenik 1991:NE
+Ucenik 1992:DA srebro
+Ucenik 1993:DA bronza
+Ucenik 1994:NE
+Ucenik 1995:DA srebro
+Ucenik 1996:DA bronza
+Ucenik 1997:NE
+Ucenik 1998:DA bronza
+Ucenik 1999:DA bronza

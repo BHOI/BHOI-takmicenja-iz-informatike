@@ -1,0 +1,8 @@
+10
+aaaaaaaaaa
+5
+1 a
+10 a
+2 z
+6 y
+10 g

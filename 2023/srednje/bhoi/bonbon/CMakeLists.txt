@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.13)  # CMake version check
+project(task)
+set(CMAKE_CXX_STANDARD 17)            # Enable c++17 standard
+add_executable(main sol/main.cpp)
+add_executable(generator sol/generator.cpp sol/generator_specific.cpp)
+
+if(WIN32)
+  string(REPLACE "/" "\\\\" SOL_DIR ${CMAKE_SOURCE_DIR}/sol)
+else()
+  set(SOL_DIR ${CMAKE_SOURCE_DIR}/sol)
+endif()
+target_compile_definitions(generator PRIVATE SOURCE_PATH=${SOL_DIR})
+
+if(MSVC)
+  target_compile_definitions(generator PRIVATE APPEND_ONE_MORE_BACKDIR)
+endif()

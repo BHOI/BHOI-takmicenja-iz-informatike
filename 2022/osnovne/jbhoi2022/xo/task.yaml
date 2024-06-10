@@ -1,0 +1,8 @@
+name: "xo"
+title: "X-O"
+time_limit: 0.1
+memory_limit: 256
+n_input: 60
+public_testcases: "all"
+infile: ""
+outfile: ""

@@ -1,0 +1,13 @@
+Možemo pretpostaviti da su u prvoj polovini puta korišteni samo horizontalni skokovi a potom
+vertikalni jer kada dođemo u određenu tačku nije nam bitno kojim smo redom išli kroz
+prethodne segmente.
+Koristeći Knapsack algoritam možemo izračunati potencijalne dužine svih prvih dijelova puta
+(horizontalni skokovi).
+Ako je S suma snaga svih opruga a K suma nekog podskupa opruga onda nam je važno da
+u konačan rezulatat ubrojimo sva polja (K, x) i (x, K) pri čemu je 0 ≤ x ≤ S - K. Svaka suma
+koju možemo horizontalno dobiti ima S - K + 1 polja koja moraju biti vertikalno pređena da bi
+se došlo u određenu tačku.
+Još nam je ostalo da izračunamo koliko polja mora biti prekriveno u horizontalama koje se
+ne mogu dobiti sumom snaga opruga, tj broj vertikala koje prolaze kroz njih (primjeri na slici:
+horizontala 5, 3, 1). Taj broj ćemo dobiti dodavanjem broja horizontala na krajnji rezultat koje
+su već povučene iznad trenutne horizontale.

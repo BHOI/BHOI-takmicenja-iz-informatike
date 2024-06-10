@@ -1,0 +1,9 @@
+name: "parovi"
+title: "Parovi"
+time_limit: 1
+memory_limit: 256
+n_input: 20
+public_testcases: "all"
+infile: ""
+outfile: ""
+score_mode: "max_subtask"

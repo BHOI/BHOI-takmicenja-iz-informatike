@@ -1,0 +1,8 @@
+name: "trake"
+title: "Trake"
+time_limit: 1
+memory_limit: 256
+n_input: 10
+public_testcases: "all"
+infile: ""
+outfile: ""

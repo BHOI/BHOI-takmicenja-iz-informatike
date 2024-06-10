@@ -1,0 +1,12 @@
+name: "bonbon"
+title: "BonBon"
+time_limit: 1
+memory_limit: 256
+n_input: 19
+public_testcases: all
+total_value: 100
+token_mode: disabled
+score_mode: max_subtask
+primary_language: bs
+infile: ""
+outfile: ""
