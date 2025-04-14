@@ -1,0 +1,12 @@
+name: "suma"
+title: "Šuma"
+time_limit: 2
+memory_limit: 64
+n_input: 20
+public_testcases: all
+total_value: 100
+token_mode: disabled
+score_mode: max_subtask
+primary_language: bs
+infile: ""
+outfile: ""

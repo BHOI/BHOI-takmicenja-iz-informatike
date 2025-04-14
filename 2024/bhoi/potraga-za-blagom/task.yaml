@@ -1,0 +1,12 @@
+name: "potraga-za-blagom"
+title: "Potraga za Blagom"
+time_limit: 0.1
+memory_limit: 64
+n_input: 100
+public_testcases: all
+total_value: 100
+token_mode: disabled
+score_mode: max_subtask
+primary_language: bs
+infile: ""
+outfile: ""

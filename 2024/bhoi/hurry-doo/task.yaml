@@ -1,0 +1,12 @@
+name: "hurry-doo"
+title: "Hurry D.o.o."
+time_limit: 5
+memory_limit: 800
+n_input: 50
+public_testcases: all
+total_value: 100
+token_mode: disabled
+score_mode: max_subtask
+primary_language: bs
+infile: ""
+outfile: ""
