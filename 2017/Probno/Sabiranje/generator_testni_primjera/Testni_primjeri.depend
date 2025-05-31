@@ -1,0 +1,189 @@
+# depslib dependency file v1.0
+1430660449 source:/home/rijad/Desktop/Testni_primjeri/main.cpp
+	"zad.h"
+	"lib.h"
+	"zad.h"
+	"lib.h"
+
+1430661491 /home/rijad/Desktop/Testni_primjeri/zad.h
+	"lib.h"
+	"lib.h"
+
+1430660309 /home/rijad/Desktop/Testni_primjeri/lib.h
+	<algorithm>
+	<bitset>
+	<cmath>
+	<cstdio>
+	<cstring>
+	<ctime>
+	<cstdlib>
+	<iostream>
+	<map>
+	<queue>
+	<set>
+	<stack>
+	<string>
+	<utility>
+	<vector>
+	<algorithm>
+	<bitset>
+	<cmath>
+	<cstdio>
+	<cstring>
+	<ctime>
+	<cstdlib>
+	<iostream>
+	<map>
+	<queue>
+	<set>
+	<stack>
+	<string>
+	<utility>
+	<vector>
+
+1430663909 
+
+1420884430 source:c:\users\rijad\desktop\testni_primjeri\main.cpp
+	"zad.h"
+	"lib.h"
+
+1422054538 c:\users\rijad\desktop\testni_primjeri\zad.h
+	"lib.h"
+
+1422045736 c:\users\rijad\desktop\testni_primjeri\lib.h
+	<algorithm>
+	<bitset>
+	<cmath>
+	<cstdio>
+	<cstring>
+	<ctime>
+	<cstdlib>
+	<iostream>
+	<map>
+	<queue>
+	<set>
+	<stack>
+	<string>
+	<utility>
+	<vector>
+
+1430660449 source:/home/rijad/Documents/BHOI_Drzavno/Cuvari/Testni_primjeri/main.cpp
+	"zad.h"
+	"lib.h"
+
+1432853913 /home/rijad/Documents/BHOI_Drzavno/Cuvari/Testni_primjeri/zad.h
+	"lib.h"
+
+1430660309 /home/rijad/Documents/BHOI_Drzavno/Cuvari/Testni_primjeri/lib.h
+	<algorithm>
+	<bitset>
+	<cmath>
+	<cstdio>
+	<cstring>
+	<ctime>
+	<cstdlib>
+	<iostream>
+	<map>
+	<queue>
+	<set>
+	<stack>
+	<string>
+	<utility>
+	<vector>
+
+1430664049 source:c:\users\rijad\desktop\party\testni_primjeri\main.cpp
+	"zad.h"
+	"lib.h"
+
+1441306813 c:\users\rijad\desktop\party\testni_primjeri\zad.h
+	"lib.h"
+
+1430663909 c:\users\rijad\desktop\party\testni_primjeri\lib.h
+	<algorithm>
+	<bitset>
+	<cmath>
+	<cstdio>
+	<cstring>
+	<ctime>
+	<cstdlib>
+	<iostream>
+	<map>
+	<queue>
+	<set>
+	<stack>
+	<string>
+	<utility>
+	<vector>
+
+1430660449 source:/home/rijad/Documents/ZadatakDrzavno/Generator_testni_primjera/main.cpp
+	"zad.h"
+	"lib.h"
+
+1465598052 /home/rijad/Documents/ZadatakDrzavno/Generator_testni_primjera/zad.h
+	"lib.h"
+
+1430660309 /home/rijad/Documents/ZadatakDrzavno/Generator_testni_primjera/lib.h
+	<algorithm>
+	<bitset>
+	<cmath>
+	<cstdio>
+	<cstring>
+	<ctime>
+	<cstdlib>
+	<iostream>
+	<map>
+	<queue>
+	<set>
+	<stack>
+	<string>
+	<utility>
+	<vector>
+
+1430660449 source:/media/rijad/5CC21B6FC21B4CA0/Dropbox/BHOI pripreme zadataka/BHOI2016/Probno/Sabiranje/Generator_testni_primjera/main.cpp
+	"zad.h"
+	"lib.h"
+
+1465603993 /media/rijad/5CC21B6FC21B4CA0/Dropbox/BHOI pripreme zadataka/BHOI2016/Probno/Sabiranje/Generator_testni_primjera/zad.h
+	"lib.h"
+
+1430660309 /media/rijad/5CC21B6FC21B4CA0/Dropbox/BHOI pripreme zadataka/BHOI2016/Probno/Sabiranje/Generator_testni_primjera/lib.h
+	<algorithm>
+	<bitset>
+	<cmath>
+	<cstdio>
+	<cstring>
+	<ctime>
+	<cstdlib>
+	<iostream>
+	<map>
+	<queue>
+	<set>
+	<stack>
+	<string>
+	<utility>
+	<vector>
+
+1430660449 source:/home/rijad/Desktop/Generator_testni_primjera/main.cpp
+	"zad.h"
+	"lib.h"
+
+1465603993 /home/rijad/Desktop/Generator_testni_primjera/zad.h
+	"lib.h"
+
+1430660309 /home/rijad/Desktop/Generator_testni_primjera/lib.h
+	<algorithm>
+	<bitset>
+	<cmath>
+	<cstdio>
+	<cstring>
+	<ctime>
+	<cstdlib>
+	<iostream>
+	<map>
+	<queue>
+	<set>
+	<stack>
+	<string>
+	<utility>
+	<vector>
+
