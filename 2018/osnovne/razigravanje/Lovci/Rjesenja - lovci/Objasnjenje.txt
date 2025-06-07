@@ -1,0 +1,1 @@
+Rjesenje brute1 rjesava prvi podzadatak, rjesenje brute2 rjesava prva dva podzadatka, rjesenje arraysol rjesava prva tri podzadatka i rjesenje mapsol rjesava sve podzadatke.
