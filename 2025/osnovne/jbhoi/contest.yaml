@@ -1,0 +1,12 @@
+name: "jBHOI_2025"
+description: "Drzavno takmicenje osnovnih skola - 2025"
+token_mode: disabled
+tasks:
+  - lijevo_ili_desno
+  - ronjenje
+  - hoteli
+  - penjac
+start: 1746604800
+stop: 1746617400
+timezone: Europe/Sarajevo
+score_precision: 1
