@@ -1,0 +1,13 @@
+name: "BHOI_2025"
+description: "Drzavno takmicenje srednjih skola - 2025"
+token_mode: disabled
+tasks:
+  - lezaljke
+  - kolegice
+  - cudnovati_sat
+  - pneumatske_cijevi
+  - povlacenje_uzeta
+start: 1746604800
+stop: 1746617400
+timezone: Europe/Sarajevo
+score_precision: 1
