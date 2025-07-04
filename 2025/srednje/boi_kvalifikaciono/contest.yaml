@@ -1,0 +1,11 @@
+name: "BOI_kvalifikaciono"
+description: "Kvalifikaciono takmičenje za Balkansku Olimpijadu iz Informatike - 2025"
+token_mode: disabled
+tasks:
+  - izbirljivi_gosti
+  - lutke
+  - oblakinator
+start: 1751619600
+stop: 1751637600
+timezone: Europe/Sarajevo
+score_precision: 1
