@@ -1,0 +1,627 @@
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{multicol}
+\usepackage{cmbright}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+\end_modules
+\language croatian
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\pdf_author "BHOI organizacioni tim"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[LH]{Četvrto BHOI online takmičenje iz informatike}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[RH]{Zadatak 
+\backslash
+textbf{invertor}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[CF]{Strana 
+\backslash
+thepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+parindent 0pt
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Invertor
+\end_layout
+
+\begin_layout Standard
+Data vam je 
+\begin_inset Formula $n\times n$
+\end_inset
+
+ matrica sastavljena od cijelih brojeva.
+ Označimo je sa 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ Za matricu 
+\begin_inset Formula $B$
+\end_inset
+
+ kažemo da je 
+\emph on
+v-ekvivalentna
+\emph default
+ sa 
+\begin_inset Formula $A$
+\end_inset
+
+ ako je 
+\begin_inset Formula $B$
+\end_inset
+
+ nastala iz 
+\begin_inset Formula $A$
+\end_inset
+
+ primjenom neke od 
+\emph on
+v-transformacija
+\emph default
+, koje su:
+\end_layout
+
+\begin_layout Enumerate
+mijenjanjem mjesta dviju vrsta matrice 
+\series bold
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+množenjem neke vrste matrice 
+\begin_inset Formula $A$
+\end_inset
+
+ nekom konstantom (brojem)
+\end_layout
+
+\begin_layout Enumerate
+dodavanjem nekoj vrsti matrice 
+\begin_inset Formula $A$
+\end_inset
+
+ druge vrste 
+\end_layout
+
+\begin_layout Standard
+Ukoliko je 
+\begin_inset Formula $A$
+\end_inset
+
+ v-ekvivalentna sa 
+\begin_inset Formula $B$
+\end_inset
+
+ i 
+\begin_inset Formula $B$
+\end_inset
+
+ v-ekvivalentna sa 
+\begin_inset Formula $C$
+\end_inset
+
+, tada je 
+\begin_inset Formula $A$
+\end_inset
+
+ v-ekvivalentna sa 
+\begin_inset Formula $C$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Na primjer, ako sa 
+\begin_inset Formula $\sim$
+\end_inset
+
+ označimo relaciju v-ekvivalencije, vrijedi:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\left[\begin{array}{ccc}
+1 & 2 & 3\\
+4 & 5 & 6\\
+7 & 8 & 1\end{array}\right] & \underset{\mathrm{mijenjamo\ 1.\ i\ 2.\ vrstu}}{\thicksim} & \left[\begin{array}{ccc}
+4 & 5 & 6\\
+1 & 2 & 3\\
+7 & 8 & 1\end{array}\right]\\
+ & \underset{\mathrm{množimo\ 2.\ vrstu\ sa\ -2}}{\thicksim} & \left[\begin{array}{rrr}
+4 & 5 & 6\\
+-2 & -4 & -6\\
+7 & 8 & 1\end{array}\right]\\
+ & \underset{\mathrm{dodajemo\ 2.\ vrstu\ 1.\ vrsti}}{\thicksim} & \left[\begin{array}{rrr}
+2 & 1 & 0\\
+-2 & -4 & -6\\
+7 & 8 & 1\end{array}\right]\\
+ & \underset{\mathrm{dodajemo\ 1.\ vrstu\ 2.\ vrsti}}{\thicksim} & \left[\begin{array}{crr}
+2 & 1 & 0\\
+0 & -3 & -6\\
+7 & 8 & 1\end{array}\right]\\
+ & \underset{\mathrm{množimo\ 2.\ vrstu\ sa\ -\frac{1}{3}}}{\thicksim} & \left[\begin{array}{ccc}
+2 & 1 & 0\\
+0 & 1 & 2\\
+7 & 8 & 1\end{array}\right].\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Za matricu 
+\begin_inset Formula $A$
+\end_inset
+
+ kažemo da je 
+\emph on
+invertibilna
+\emph default
+ ako je v-ekvivalentna sa jediničnom matricom 
+\begin_inset Formula $E$
+\end_inset
+
+ koja je kvadratna i koja ima sve nule osim na glavnoj dijagonali gdje ima
+ jedinice.
+ Na primjer, 
+\begin_inset Formula $3\times3$
+\end_inset
+
+ jedinična matrica je 
+\begin_inset Formula \[
+E=\left[\begin{array}{ccc}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1\end{array}\right].\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ako je 
+\begin_inset Formula $A$
+\end_inset
+
+ invertibilna, tada postoji njoj invertna matrica 
+\begin_inset Formula $A^{-1}$
+\end_inset
+
+.
+ Matricu 
+\begin_inset Formula $A^{-1}$
+\end_inset
+
+ nalazimo na sljedeći način:
+\end_layout
+
+\begin_layout Enumerate
+Napišemo 
+\begin_inset Formula $A$
+\end_inset
+
+ i njoj odgovarajuću 
+\begin_inset Formula $E$
+\end_inset
+
+ (tj.
+ iste dimenzije) jednu do druge, na primjer:
+\begin_inset Formula \[
+\left[\begin{array}{ccc|ccc}
+1 & 2 & 3 & 1 & 0 & 0\\
+4 & 5 & 6 & 0 & 1 & 0\\
+7 & 8 & 1 & 0 & 0 & 1\end{array}\right]\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Matricu 
+\begin_inset Formula $A$
+\end_inset
+
+ svodimo v-transformacijama na matricu 
+\begin_inset Formula $E$
+\end_inset
+
+.
+ U isto vrijeme primjenjujemo iste transformacije i na matrici 
+\begin_inset Formula $E$
+\end_inset
+
+, na primjer:
+\begin_inset Formula \[
+\left[\begin{array}{ccc|ccc}
+1 & 2 & 3 & 1 & 0 & 0\\
+4 & 5 & 6 & 0 & 1 & 0\\
+7 & 8 & 1 & 0 & 0 & 1\end{array}\right]\thicksim\left[\begin{array}{ccc|ccc}
+4 & 5 & 6 & 0 & 1 & 0\\
+1 & 2 & 3 & 1 & 0 & 0\\
+7 & 8 & 1 & 0 & 0 & 1\end{array}\right]\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Nakon što dobijemo 
+\begin_inset Formula $E$
+\end_inset
+
+ na lijevoj strani, na desnoj strani ostaje matrica 
+\begin_inset Formula $A^{-1}$
+\end_inset
+
+.
+ U našem slučaju je 
+\begin_inset Formula \[
+\left[\begin{array}{c|c}
+A & E\end{array}\right]\thicksim\left[\begin{array}{ccc|rrr}
+1 & 2 & 3 & -\frac{43}{24} & \frac{11}{12} & -\frac{1}{8}\\
+4 & 5 & 6 & \frac{19}{12} & -\frac{5}{6} & \frac{1}{4}\\
+7 & 8 & 1 & -\frac{1}{8} & \frac{1}{4} & -\frac{1}{8}\end{array}\right]\thicksim\left[\begin{array}{c|c}
+E & A^{-1}\end{array}\right]\Longrightarrow A^{-1}=\left[\begin{array}{rrr}
+-\frac{43}{24} & \frac{11}{12} & -\frac{1}{8}\\
+\frac{19}{12} & -\frac{5}{6} & \frac{1}{4}\\
+-\frac{1}{8} & \frac{1}{4} & -\frac{1}{8}\end{array}\right].\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Vaš zadatak je da za datu matricu 
+\begin_inset Formula $A$
+\end_inset
+
+ nađete njoj invertnu matricu 
+\begin_inset Formula $A^{-1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+Ulaz i izlaz
+\end_layout
+
+\begin_layout Standard
+Ulazne podatke čitate iz datoteke 
+\family typewriter
+invertor.in
+\family default
+.
+ U prvoj liniji se nalazi 
+\begin_inset Formula $1<n<20$
+\end_inset
+
+, dimenzija matrice.
+ U sljedećih 
+\begin_inset Formula $n$
+\end_inset
+
+ linija se nalazi 
+\begin_inset Formula $n$
+\end_inset
+
+ cijelih brojeva koji odgovaraju matrici (
+\begin_inset Formula $v+1$
+\end_inset
+
+-a linija predstavlja 
+\begin_inset Formula $v$
+\end_inset
+
+-tu vrstu, a 
+\begin_inset Formula $k$
+\end_inset
+
+-ta pozicija u liniji predstavlja 
+\begin_inset Formula $k$
+\end_inset
+
+-tu kolonu u matrici).
+ 
+\end_layout
+
+\begin_layout Standard
+Rezultat pišete u datoteku 
+\family typewriter
+invertor.out
+\family default
+.
+ Ukoliko ulazna matrica nije invertibilna trebate ispisati samo 
+\family typewriter
+?
+\family default
+.
+ Ukoliko jeste, trebate ispisati traženu matricu.
+ Napomenimo da u ispisu sve racionalne brojeve trebate predstaviti u obliku
+ maksimalno skraćenog razlomka gdje je nazivnik pozitivan.
+ Također izlaznu matricu trebate ispisati u formatu programa Wolfram Mathematica.
+ To znači da svaki broj trebate odvojiti sa zarezom, svaku vrstu trebate
+ uokviriti u vitičaste zagrade i odvojiti sa zarezom, te na kraju čitavu
+ matricu uokviriti sa vitičastim zagradama.
+ Nakon svakog zareza dolazi prazno mjesto.
+ Brojeve oblika 
+\begin_inset Formula $\frac{a}{b},\ 0<b\neq1$
+\end_inset
+
+ treba ispisati kao 
+\family typewriter
+a/b
+\family default
+.
+ Svi brojevi su u opsegu od 
+\begin_inset Formula $-2^{63}-1$
+\end_inset
+
+ do 
+\begin_inset Formula $2^{63}-1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+Testni primjeri
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+textbf{invertor.in}
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+texttt{3
+\backslash
+
+\backslash
+1 2 3
+\backslash
+
+\backslash
+4 5 6
+\backslash
+
+\backslash
+7 8 1} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+textbf{invertor.out}
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+texttt{
+\backslash
+{
+\backslash
+{-43/24, 11/12, -1/8
+\backslash
+}, 
+\backslash
+{19/12, -5/6, 1/4
+\backslash
+}, 
+\backslash
+{-1/8, 1/4, -1/8
+\backslash
+}
+\backslash
+} } 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+textbf{invertor.in}
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+texttt{3
+\backslash
+
+\backslash
+1 2 3
+\backslash
+
+\backslash
+4 5 6
+\backslash
+
+\backslash
+7 8 9} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+textbf{invertor.out}
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+texttt{?} 
+\backslash
+end{quote}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Ograničenja
+\end_layout
+
+\begin_layout Standard
+Vaš program može raditi najduže 1 sekundu i ne smije koristiti više od 32
+ MiB memorije.
+\end_layout
+
+\end_body
+\end_document

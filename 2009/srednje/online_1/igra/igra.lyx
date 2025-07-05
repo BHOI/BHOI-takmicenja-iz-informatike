@@ -1,0 +1,402 @@
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{multicol}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+\end_modules
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[ELH,OLH]{BHOI online takmi
+\backslash
+v{c}enje iz informatike}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[ELH,ORH]{Strana 
+\backslash
+thepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Igra
+\end_layout
+
+\begin_layout Standard
+Učenici se na razne načine dovijaju kako da se razonode tokom dosadnih časova,
+ kojih ima i kojih će biti.
+ Jedan od njih je igranje neke igre.
+ U ovom zadatku ćemo predstaviti igru sa nazivom 
+\emph on
+superslova
+\emph default
+.
+ Superslova se igraju tako što svaki od igrača dobije gomilu papirića.
+ Na svakom papiriću se nalazi po jedno malo latinično slovo.
+ Svako slovo ima svoju brojčanu vrijednost.
+ Igrač nastavlja igrati ako može formirati ispravnu riječ od datih papirića.
+ Također, igrač je dužan formirati riječ takvu da je suma vrijednosti njenih
+ slova najveća moguća.
+ U igri također postoji i 
+\emph on
+džoker
+\emph default
+.
+ On može zamijeniti svako slovo, ali se u tom slučaju vrijednost slova ne
+ sabira.
+\end_layout
+
+\begin_layout Standard
+Postavlja se logično pitanje 
+\begin_inset Quotes eld
+\end_inset
+
+Šta je to ispravna riječ?
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Zbog toga uvodimo pojam 
+\emph on
+riječnika
+\emph default
+.
+ Riječ je ispravna ako i samo ako se nalazi u riječniku.
+\end_layout
+
+\begin_layout Standard
+Vaš je zadatak da za svakog igrača odredite njemu pripadajuću riječ ako
+ je on može oformiti.
+ Ukoliko igrač može oformiti više riječi sa istom vrijednošću, dužan je
+ izabrati onu koja dolazi prije po alfabetskom poretku.
+\end_layout
+
+\begin_layout Subsection*
+Ulaz i izlaz
+\end_layout
+
+\begin_layout Standard
+U prvoj liniji ulazne datoteke 
+\family typewriter
+igra.in
+\family default
+ se nalaze slova koja se koriste u igri.
+ To su mala latinična slova engleskog alfabeta.
+ Ona su poredana u alfabetskom poretku.
+ U sljedećoj liniji se nalaze vrijednosti za svako slovo.
+ Sve vrijednosti su u rasponu od 0 do 9.
+ Sljedeća linija sadrži broj igrača 
+\begin_inset Formula $\mathsf{1\leq i\leq100}$
+\end_inset
+
+.
+ Svaka od sljedećih 
+\begin_inset Formula $\mathsf{i}$
+\end_inset
+
+ linija sadrži papiriće koje je je dobio 
+\begin_inset Formula $\mathsf{i}$
+\end_inset
+
+-ti igrač.
+ Svaki papirić je predstavljen sa slovom na njemu.
+ Papirić sa džokerom je predstavljen sa slovom 
+\family typewriter
+X
+\family default
+.
+ Nakon toga se nalazi broj 
+\begin_inset Formula $\mathsf{1\leq r\leq10000}$
+\end_inset
+
+, koji predstavlja broj riječi u riječniku.
+ Sljedećih 
+\begin_inset Formula $\mathsf{r}$
+\end_inset
+
+ stringova predstavljaju riječi u riječniku.
+\end_layout
+
+\begin_layout Standard
+U izlaznu datoteku 
+\family typewriter
+igra.out
+\family default
+ ste dužni ispisati za svakog igrača riječ koju je dati igrač formirao po
+ gore navedenim pravilima.
+ Ukoliko igrač ne može formirati riječ trebate ispisati 
+\family typewriter
+[ispao]
+\family default
+.
+ Napomenimo da igrač ne mora iskoristiti sve papiriće kako bi formirao neku
+ riječ.
+\end_layout
+
+\begin_layout Subsection*
+Testni primjeri
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{igra.in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+texttt{a b c d e f g h i j k l m n o p q r s t u v w x y z 
+\backslash
+
+\backslash
+ 1 2 2 2 1 2 2 2 1 2 2 2 2 2 1 2 2 2 2 2 1 2 2 2 2 2 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+4 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+takmiXXXXX 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+pkhee 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+ovejaras 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+hrkljus 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+8 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+takmicenje hepek peh 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+sarajevo abeceda 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+zadatak cicko cevapi
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{igra.out}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote} 
+\backslash
+texttt{takmicenje 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+hepek 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+sarajevo 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+{[}ispao{]} 
+\backslash
+
+\backslash
+[9.5em] } 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Ograničenja
+\end_layout
+
+\begin_layout Standard
+Vaš program može raditi najduže 1 sekundu i ne smije koristiti više od 32
+ MiB memorije.
+\end_layout
+
+\end_body
+\end_document

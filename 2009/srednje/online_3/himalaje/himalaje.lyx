@@ -1,0 +1,298 @@
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{multicol}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+\end_modules
+\language croatian
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\pdf_author "BHOI organizacioni tim"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[LH]{Treće BHOI online takmičenje iz informatike}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[RH]{Zadatak 
+\backslash
+textbf{himalaje}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[CF]{Strana 
+\backslash
+thepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+parindent 0pt
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Himalaje
+\end_layout
+
+\begin_layout Standard
+Ja sam pilot, i radim za BHOI Airways.
+ Danas letim omiljenom rutom od Šangaja prema Minhenu.
+ Iako volim ova dva grada, omiljeni dio putovanja je prelijetanje Himalaja.
+ Ove predivne planine nude jedan od najboljih pogleda na svijetu, posebno
+ kada se gledaju iz zraka.
+ Trenutno se približavam Himalajima iz pravca istoka prema zapadu.
+ Rano je jutro i sunce je direktno iza aviona i obasjava planine.
+ 
+\end_layout
+
+\begin_layout Standard
+Zbog udaljenosti i osvjetljenja nisam u stanju da razlikujem planine, već
+ ih vidim kao jedan planinski masiv.
+ Naravno još uvijek mogu vidjeti gdje se nalaze neki vrhovi planina.
+ Himalaje imaju preko 200 vrhova samo na visini od preko 6000 metara.
+ Ne znam sve vrhove napamet, ali imam spisak vrhova sa njihovim koordinatama
+ i visinama.
+ Također znam da su sve planine na Himalajama takve da se za svakih pređenih
+ 10 metara horizontalno pređe 20 metara nadmorske visine.
+ Drugim riječima nagib je 200%, a matematički govoreći koeficijent nagiba
+ je 2, odnosno tangens ugla nagiba iznosi 2.
+ 
+\end_layout
+
+\begin_layout Standard
+Vaš zadatak je da napravite program koji, za datu listu vrhova na Himalajima,
+ određuje koji vrhovi će se vidjeti prilikom kretanja od istoka ka zapadu.
+ Odnosno, da odredi vrhove koji neće biti sakriveni iza drugih planina ili
+ koji se u cijelosti nalaze ispred planine.
+ Sjetite se da nije moguće razlikovati planine međusobno.
+ Pretpostavka je da se gleda iz velike udaljenosti (praktično beskonačno),
+ te da je Zemlja ravna.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Ulaz i izlaz
+\end_layout
+
+\begin_layout Standard
+Ulazne podatke čitate iz datoteke 
+\family typewriter
+himalaje.in
+\family default
+.
+ Na prvoj liniji nalazi se samo jedan prirodan broj 
+\begin_inset Formula $\mathsf{0<N<1024}$
+\end_inset
+
+ koji predstavlja broj vrhova u listi.
+ Slijedi tačno N linija.
+ Na svakoj liniji nalazi se jedan niz karaktera S, gdje se S sastoji od
+ ne više od 15 malih slova engleske abecede, tri cijela broja 
+\begin_inset Formula $\mathsf{0\leq X,Y,Z\leq10000}$
+\end_inset
+
+, međusobno odvojeni razmakom.
+ S je naziv vrha, X je koordinata u pravcu jug-sjever (pri čemu su niže
+ vrijednosti južnije), Y je koordinata u pravcu istok-zapad (pri čemu su
+ niže vrijednosti istočnije), Z predstavlja visinu vrha.
+ 
+\end_layout
+
+\begin_layout Standard
+Izlazne podatke trebate ispisati u datoteku 
+\family typewriter
+himalaje.out
+\family default
+.
+ Trebate ispisati imena vrhova koji se vide na horizontu i to počevši od
+ onih koji su sjevernije svaki na novoj liniji datoteke.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Testni primjeri
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+textbf{himalaje.in}
+\backslash
+
+\backslash
+ 
+\backslash
+texttt{4 
+\backslash
+
+\backslash
+melungtse 10 5 4 
+\backslash
+
+\backslash
+lothse 8 2 3 
+\backslash
+
+\backslash
+makalu 3 3 5 
+\backslash
+
+\backslash
+everest 7 4 8 } 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+textbf{himalaje.out}
+\backslash
+
+\backslash
+ 
+\backslash
+texttt{makalu 
+\backslash
+
+\backslash
+everest 
+\backslash
+
+\backslash
+melungtse 
+\backslash
+
+\backslash
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Ograničenja
+\end_layout
+
+\begin_layout Standard
+Vaš program može raditi najduže 1 sekundu i ne smije koristiti više od 32
+ MiB memorije.
+\end_layout
+
+\end_body
+\end_document

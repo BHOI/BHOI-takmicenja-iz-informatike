@@ -1,0 +1,375 @@
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{multicol}
+\usepackage{cmbright}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+\end_modules
+\language croatian
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\pdf_author "BHOI organizacioni tim"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% 786
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+def
+\backslash
+naslov{brojevi}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[LH]{Peto BHOI online takmičenje iz informatike}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[RH]{Zadatak 
+\backslash
+textbf{
+\backslash
+naslov}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[CF]{Strana 
+\backslash
+thepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Brojevi
+\end_layout
+
+\begin_layout Standard
+Dat vam je neki broj.
+ Vaš zadatak je da odredite:
+\end_layout
+
+\begin_layout Enumerate
+Zbir njegovih cifara
+\end_layout
+
+\begin_layout Enumerate
+Produkt njegovih cifara
+\end_layout
+
+\begin_layout Enumerate
+Najmanji broj koji je djeljiv sa zbirom njegovih cifara i koji je veći od
+ zadanog broja.
+\end_layout
+
+\begin_layout Subsection*
+Ulaz i izlaz
+\end_layout
+
+\begin_layout Standard
+Ulazne podatke čitate iz datoteke 
+\family typewriter
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+naslov
+\end_layout
+
+\end_inset
+
+.in
+\family default
+.
+ U jedinoj liniji se nalazi broj 
+\begin_inset Formula $0<a<10000000$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Rezultat trebate ispisati u datoteku 
+\family typewriter
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+naslov
+\end_layout
+
+\end_inset
+
+.out
+\family default
+, u datom redoslijedu.
+ Pogledajte testne primjere za više informacija.
+\end_layout
+
+\begin_layout Subsection*
+Testni primjeri
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+naslov
+\end_layout
+
+\end_inset
+
+.in
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{verbatim}
+\end_layout
+
+\begin_layout Plain Layout
+
+956
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{verbatim}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+naslov
+\end_layout
+
+\end_inset
+
+.out
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{verbatim}
+\end_layout
+
+\begin_layout Plain Layout
+
+20
+\end_layout
+
+\begin_layout Plain Layout
+
+270
+\end_layout
+
+\begin_layout Plain Layout
+
+960
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{verbatim}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Ograničenja
+\end_layout
+
+\begin_layout Standard
+Vaš program može raditi najduže 
+\begin_inset Formula $1$
+\end_inset
+
+ sekundu i ne smije koristiti više od 
+\begin_inset Formula $32$
+\end_inset
+
+ MiB memorije.
+\end_layout
+
+\end_body
+\end_document

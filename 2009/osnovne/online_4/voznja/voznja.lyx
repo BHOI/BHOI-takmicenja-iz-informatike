@@ -1,0 +1,465 @@
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{multicol}
+\usepackage{cmbright}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+\end_modules
+\language croatian
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\pdf_author "BHOI organizacioni tim"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[LH]{Četvrto BHOI online takmičenje iz informatike}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[RH]{Zadatak 
+\backslash
+textbf{voznja}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[CF]{Strana 
+\backslash
+thepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+parindent 0pt
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Vožnja
+\end_layout
+
+\begin_layout Standard
+Vožnja autobusima zna biti dosta iscrpljujuća.
+ To zna i Sejo koji je student i dosta putuje.
+ Da stvar bude gora za Seju (koji je metalac) vozač uglavnom pušta na razglas
+ razne 
+\emph on
+hitove
+\emph default
+ turbo folka i time ga nervira.
+ U autobusima su zvučnici postavljeni iznad određenih sjedišta i Sejo prilikom
+ kretanja na put prvo provjeri koliko mu je autobus 
+\emph on
+pogodan
+\emph default
+ i time odredi da li će ipak uzeti neki drugi autobus.
+ 
+\end_layout
+
+\begin_layout Standard
+Vaš zadatak je da pomognete Seji odrediti njemu najpogodnije mjesto unutar
+ određenog autobusa ukoliko vam on dostavi podatke o rasporedu zvučnika.
+ Kako Sejo uvijek dođe prvi na stanicu ne mora se voditi briga o tome da
+ li su mjesta zauzeta ili ne.
+ Najpogodnije mjesto je sjedište koje je 
+\series bold
+\emph on
+najviše
+\series default
+\emph default
+ udaljeno od 
+\series bold
+\emph on
+najbližeg
+\series default
+\emph default
+ zvučnika.
+ Riječ je o udaljenosti na principu kvadrata, gdje udaljenost predstavlja
+ koliko je mjesta udaljen centar kvadrata (tj.
+ sjedište sa zvučnikom) od linije koja je predstavlja ivicu kvadrata (tj.
+ reda ili kolone sjedišta koja predstavljaju tu ivicu u našem primjeru).
+ Na primjer, ukoliko su na slijedećem prikazu autobusa (od 5 redova i 4
+ sjedišta u svakom redu) sjedišta iznad kojih se nalaze zvučnici označena
+ crnom bojom, najpogodnija sjedišta su označena sa 
+\family typewriter
+x
+\family default
+.
+ Između njih i označenih sjedišta je udaljenost 3.
+ Sjedišta čija je udaljenost 0 su sama sjedišta sa zvučnicima, 1 su tamno-siva,
+ 2 su svijetlo-siva a 3 su sjedišta sa 
+\family typewriter
+x
+\family default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename slika.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Svi autobusi koje Sejo uzima u razmatranje imaju 48 sjedišta za putnike
+ poredanih u 12 redova sa po 4 sjedišta.
+\end_layout
+
+\begin_layout Subsection*
+Ulaz i izlaz
+\end_layout
+
+\begin_layout Standard
+U prvom redu ulazne datoteke 
+\family typewriter
+voznja.in
+\family default
+ se nalazi broj zvučnika unutar autobusa 
+\begin_inset Formula $1\leq N\leq48$
+\end_inset
+
+.
+ U slijedećih 
+\begin_inset Formula $N$
+\end_inset
+
+ redova se nalaze po dva broja 
+\begin_inset Formula $1\leq R\leq12$
+\end_inset
+
+ i 
+\begin_inset Formula $1\leq S\leq4$
+\end_inset
+
+ koja označavaju red i kolonu sjedišta iznad kojeg se nalazi zvučnik.
+ Redovi su numerisani odozgo prema dolje, a kolone sa lijeva na desno.
+\end_layout
+
+\begin_layout Standard
+U prvom redu datoteke 
+\family typewriter
+invertor.out
+\family default
+ ispisati udaljenost najpogodnijeg mjesta (ili najpogodnijih mjesta).
+\end_layout
+
+\begin_layout Subsection*
+Testni primjeri
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+voznja.in
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{verbatim}
+\end_layout
+
+\begin_layout Plain Layout
+
+1
+\end_layout
+
+\begin_layout Plain Layout
+
+2 1
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{verbatim}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+voznja.out
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{verbatim}
+\end_layout
+
+\begin_layout Plain Layout
+
+10
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{verbatim}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+voznja.in
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{verbatim}
+\end_layout
+
+\begin_layout Plain Layout
+
+2
+\end_layout
+
+\begin_layout Plain Layout
+
+2 1
+\end_layout
+
+\begin_layout Plain Layout
+
+5 3	 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{verbatim}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+voznja.out
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{verbatim}
+\end_layout
+
+\begin_layout Plain Layout
+
+7
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{verbatim}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Ograničenja
+\end_layout
+
+\begin_layout Standard
+Vaš program može raditi najduže 1 sekundu i ne smije koristiti više od 32
+ MiB memorije.
+\end_layout
+
+\end_body
+\end_document

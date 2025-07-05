@@ -1,0 +1,606 @@
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{multicol}
+\usepackage{cmbright}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+\end_modules
+\language croatian
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\pdf_author "BHOI organizacioni tim"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[LH]{Četvrto BHOI online takmičenje iz informatike}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[RH]{Zadatak 
+\backslash
+textbf{mnozenje}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[CF]{Strana 
+\backslash
+thepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+parindent 0pt
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Množenje
+\end_layout
+
+\begin_layout Standard
+U matematici je često potrebno izmnožiti dvije matrice.
+ Neka su date dvije matrice, 
+\begin_inset Formula $A$
+\end_inset
+
+ dimenzija 
+\begin_inset Formula $m\times n$
+\end_inset
+
+ i 
+\begin_inset Formula $B$
+\end_inset
+
+ dimenzija 
+\begin_inset Formula $n\times p$
+\end_inset
+
+.
+ Šta je rezultat množenja matrica 
+\begin_inset Formula $A$
+\end_inset
+
+ i 
+\begin_inset Formula $B$
+\end_inset
+
+? Prvo, matrice možemo množiti ako i samo ako je broj kolona prve matrice
+ jednak broju vrsta (redova) druge.
+ U gornjem slučaju 
+\begin_inset Formula $A$
+\end_inset
+
+ i 
+\begin_inset Formula $B$
+\end_inset
+
+ možemo množiti jer 
+\begin_inset Formula $A$
+\end_inset
+
+ ima 
+\begin_inset Formula $n$
+\end_inset
+
+ kolona, koliko i 
+\begin_inset Formula $B$
+\end_inset
+
+ ima redova.
+ Sada, ako stavimo 
+\begin_inset Formula $C=AB$
+\end_inset
+
+, tada je 
+\begin_inset Formula $C$
+\end_inset
+
+ dimenzija 
+\begin_inset Formula $m\times p$
+\end_inset
+
+.
+ Kako dobijamo elemente matrice 
+\begin_inset Formula $C$
+\end_inset
+
+? Uzmimo da tražimo element koji se nalazi u 
+\begin_inset Formula $i$
+\end_inset
+
+-tom redu i 
+\begin_inset Formula $j$
+\end_inset
+
+-toj koloni matrice 
+\begin_inset Formula $C$
+\end_inset
+
+ (ovo označavamo sa 
+\begin_inset Formula $C_{ij}$
+\end_inset
+
+).
+ Uzmimo sada 
+\begin_inset Formula $i$
+\end_inset
+
+-ti red matrice 
+\begin_inset Formula $A$
+\end_inset
+
+ i 
+\begin_inset Formula $j$
+\end_inset
+
+-tu kolonu matrice 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ Pošto svaka vrsta matrice 
+\begin_inset Formula $A$
+\end_inset
+
+ ima 
+\begin_inset Formula $n$
+\end_inset
+
+ elemenata, kao što i svaka kolona matrice 
+\begin_inset Formula $B$
+\end_inset
+
+ ima isto 
+\begin_inset Formula $n$
+\end_inset
+
+ elemenata, to možemo ovu vrstu i kolonu pomnožiti tako da prvi element
+ vrste pomnožimo sa prvim elementom kolone i tako dalje.
+ Na kraju sve te rezultate saberemo i dobijemo vrijednost 
+\begin_inset Formula $C_{ij}$
+\end_inset
+
+.Matematički napisano:
+\begin_inset Formula \[
+C_{ij}=\sum_{k=1}^{n}A_{ik}B_{kj}.\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Na primjer, neka je 
+\begin_inset Formula \[
+A=\left[\begin{array}{rrr}
+1 & 2 & 3\\
+4 & 5 & 6\end{array}\right]\mathrm{\ i\ }B=\left[\begin{array}{rrr}
+1 & 2 & 3\\
+4 & 5 & 6\\
+7 & 8 & 9\end{array}\right].\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pošto je 
+\begin_inset Formula $A$
+\end_inset
+
+ dimenzija 
+\begin_inset Formula $2\times3$
+\end_inset
+
+ i 
+\begin_inset Formula $B$
+\end_inset
+
+ 
+\begin_inset Formula $3\times3$
+\end_inset
+
+, to je 
+\begin_inset Formula $C=AB$
+\end_inset
+
+ dimenzija 
+\begin_inset Formula $2\times3$
+\end_inset
+
+.
+ Nađimo 
+\begin_inset Formula $C_{12}$
+\end_inset
+
+.
+ Uzmimo prvu vrstu od matrice 
+\begin_inset Formula $A$
+\end_inset
+
+ i drugu kolonu matrice 
+\begin_inset Formula $B$
+\end_inset
+
+:
+\begin_inset Formula \[
+\left[\begin{array}{rrr}
+\hline 1 & 2 & 3\\
+\hline 4 & 5 & 6\end{array}\right],\left[\begin{array}{r|r|r}
+1 & 2 & 3\\
+4 & 5 & 6\\
+7 & 8 & 9\end{array}\right].\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sada je
+\begin_inset Formula \[
+C_{12}=\left[\begin{array}{rrr}
+1 & 2 & 3\end{array}\right]\left[\begin{array}{c}
+2\\
+5\\
+8\end{array}\right]=1\cdot2+2\cdot5+3\cdot8=2+10+24=36.\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ponavljajući ovaj postupak za svako 
+\begin_inset Formula $i$
+\end_inset
+
+ i 
+\begin_inset Formula $j$
+\end_inset
+
+ dobijamo
+\begin_inset Formula \[
+C=\left[\begin{array}{rrr}
+1 & 2 & 3\\
+4 & 5 & 6\end{array}\right]\left[\begin{array}{rrr}
+1 & 2 & 3\\
+4 & 5 & 6\\
+7 & 8 & 9\end{array}\right]=\left[\begin{array}{rrr}
+30 & 36 & 42\\
+66 & 81 & 96\end{array}\right].\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Ulaz i izlaz
+\end_layout
+
+\begin_layout Standard
+U prvom redu ulazne datoteke 
+\family typewriter
+mnozenje.in
+\family default
+ se nalaze brojevi 
+\begin_inset Formula $m$
+\end_inset
+
+, 
+\begin_inset Formula $n$
+\end_inset
+
+ i 
+\begin_inset Formula $p$
+\end_inset
+
+ 
+\begin_inset Formula $1\leq m,n,p\leq20$
+\end_inset
+
+.
+ U sljedećih 
+\begin_inset Formula $m$
+\end_inset
+
+ redova se nalazi 
+\begin_inset Formula $n$
+\end_inset
+
+ brojeva koji predstavljaju matricu 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ Nakon toga se u sljedećih 
+\begin_inset Formula $n$
+\end_inset
+
+ redova se nalazi 
+\begin_inset Formula $p$
+\end_inset
+
+ brojeva koji predstavljaju matricu 
+\begin_inset Formula $B$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+U prvom redu datoteke 
+\family typewriter
+mnozenje.out
+\family default
+ ispisati dimenzije matrice 
+\begin_inset Formula $C=AB$
+\end_inset
+
+.
+ Nakon toga, u narednih 
+\begin_inset Formula $m$
+\end_inset
+
+ redova ispisati 
+\begin_inset Formula $p$
+\end_inset
+
+ brojeva odvojenih razmacima, koji predstavljaju matricu 
+\begin_inset Formula $C$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Svi brojevi u ulazu su prirodni brojevi manji od 1000.
+\end_layout
+
+\begin_layout Subsection*
+Testni primjeri
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+mnozenje.in
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{verbatim}
+\end_layout
+
+\begin_layout Plain Layout
+
+2 3 3
+\end_layout
+
+\begin_layout Plain Layout
+
+1 2 3
+\end_layout
+
+\begin_layout Plain Layout
+
+4 5 6
+\end_layout
+
+\begin_layout Plain Layout
+
+1 2 3
+\end_layout
+
+\begin_layout Plain Layout
+
+4 5 6
+\end_layout
+
+\begin_layout Plain Layout
+
+7 8 9
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{verbatim}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+mnozenje.out
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{verbatim}
+\end_layout
+
+\begin_layout Plain Layout
+
+2 3
+\end_layout
+
+\begin_layout Plain Layout
+
+30 36 42
+\end_layout
+
+\begin_layout Plain Layout
+
+66 81 96
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{verbatim}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Ograničenja
+\end_layout
+
+\begin_layout Standard
+Vaš program može raditi najduže 1 sekundu i ne smije koristiti više od 32
+ MiB memorije.
+\end_layout
+
+\end_body
+\end_document

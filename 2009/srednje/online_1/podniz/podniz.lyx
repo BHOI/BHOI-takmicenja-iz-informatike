@@ -1,0 +1,454 @@
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{multicol}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+\end_modules
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+setcounter{section}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[ELH,OLH]{BHOI online takmi
+\backslash
+v{c}enje iz informatike}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[ELH,ORH]{Strana 
+\backslash
+thepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Podniz
+\end_layout
+
+\begin_layout Standard
+Znamo da su sva velika slova engleskog alfabeta: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+ Razlikom dva slova ćemo nazvati njihovu međusobnu udaljenost u alfabetu.
+ Na primjer razlika slova A i B je 1, razlika F i Q je 11, dok je za slova
+ U i X razlika 3.
+ Podnizom jednog niza nazivamo elemente koji se uzastopno, bez preskakanja,
+ pojavljuju u nizu.
+ Na primjer, jedan podniz niza ABCDFHIJKLMO je BCDF, a drugi je LM i slično.
+\end_layout
+
+\begin_layout Standard
+Zadan je niz velikih slova engleskog alfabeta.
+ Nađite dužinu najdužeg podniza koji se sastoji od najmanje 3 uzastopna
+ susjedna elementa niza (ne mora biti monoton niz -- to znači da elementi
+ ne moraju da dolaze jedan iza drugog u alfabetu), i koji ima razliku svih
+ susjednih elemenata istu, ali različitu od nule.
+\end_layout
+
+\begin_layout Standard
+Za niz ABCDFHIJKLMO najduži podniz sa traženom osobinom je HIJKLM jer mu
+ je razlika svih slova koja su jedno do drugog 1 a ukupna dužina 6.
+ Dodavanjem bilo kojeg susjednog slova iz gornjeg niza razlika više ne bi
+ bila ista jer i F i O se razlikuju za 2 od odgovarajućih susjeda H i M:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+ 
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\series bold
+\size larger
+ABCDF
+\bar under
+HIJKLM
+\bar default
+O
+\series default
+\size default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Ulaz i izlaz
+\end_layout
+
+\begin_layout Standard
+U prvom i jedinom redu ulazne datoteke 
+\family typewriter
+podniz.in
+\family default
+ se nalazi niz velikih slova engleskog alfabeta čija dužina neće biti manja
+ od 3 znaka niti veća od 1000 znakova.
+ U prvom i jedinom redu izlazne datoteke 
+\family typewriter
+podniz.out
+\family default
+ ispišite samo dužinu najdužeg podniza koji ima istu razliku svih svojih
+ susjednih elemenata.
+\end_layout
+
+\begin_layout Subsection*
+Testni primjeri
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{podniz.in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+texttt{ABCDFHIJKLMO
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{podniz.out}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote} 
+\backslash
+texttt{6
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{podniz.in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+texttt{AAAAADGGB
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{podniz.out}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote} 
+\backslash
+texttt{3
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{podniz.in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+texttt{GKGCGHIJ
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{podniz.out}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote} 
+\backslash
+texttt{5
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Ograničenja
+\end_layout
+
+\begin_layout Standard
+Vaš program može raditi najduže 1 sekundu i ne smije koristiti više od 32
+ MiB memorije.
+\end_layout
+
+\end_body
+\end_document

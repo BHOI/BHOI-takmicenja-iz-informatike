@@ -1,0 +1,549 @@
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{multicol}
+\usepackage{cmbright}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+\end_modules
+\language croatian
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\pdf_author "BHOI organizacioni tim"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+def
+\backslash
+naslov{1001noc}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[LH]{Peto BHOI online takmičenje iz informatike}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[RH]{Zadatak 
+\backslash
+textbf{
+\backslash
+naslov}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[CF]{Strana 
+\backslash
+thepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+1001 noć
+\end_layout
+
+\begin_layout Standard
+Svi znamo za priče koje je Šeherzada pričala caru Šahrijaru tokom 1001 noći.
+ Šeherzada je tako sačuvala svoj život, kao i živote mnogobrojnih osoba.
+\end_layout
+
+\begin_layout Standard
+Nakon Šeherzadinog izbavljenja i Šahrijarovog pokajanja, car Šahrijar naređuje
+ svom veziru Dindanu (ujedno i Šeherzadinom ocu) da popiše sve priče, te
+ da napravi katalog imena koja se spominju u pričama.
+ Cara posebno zanima 
+\emph on
+koeficijent kompleksnosti
+\emph default
+ raznih imena koja se pojavljuju u pričama.
+\end_layout
+
+\begin_layout Standard
+Znamo da Arapi ne koriste prezimena, nego uz ime obično dodaju ime oca ili
+ majke, ili imena svoje djece.
+ Tako, Abu Hasan znači 
+\emph on
+Hasanov otac
+\emph default
+, Ummi Sinan znači 
+\emph on
+Sinanova majka
+\emph default
+, Ibn ul Harun znači 
+\emph on
+sin Haruna
+\emph default
+ i sl.
+ Također česta su i imena poput Abdullah, što bi na našem jeziku značilo
+ 
+\emph on
+Božiji rob
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Koeficijent sličnosti 
+\begin_inset Formula $\xi(S)$
+\end_inset
+
+, gdje je 
+\begin_inset Formula $S$
+\end_inset
+
+ skup imena, se računa kao dužina najdužeg zajedničkog prefiksa riječi u
+ skupu 
+\begin_inset Formula $S$
+\end_inset
+
+.
+ Na primjer, ako je 
+\begin_inset Formula $S=\{\mathrm{Abu\ Hasan},\mathrm{Abu\ Mensur},\mathrm{Abu\ Sulejman}\}$
+\end_inset
+
+, tada je najdužu zajednički prefiks Abu (sa razmakom), te je 
+\begin_inset Formula $\xi(S)=4$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Koeficijent kompleksnosti 
+\begin_inset Formula $\gamma(S)$
+\end_inset
+
+ se računa po formuli
+\begin_inset Formula \[
+\gamma(S):=\xi(S)\times\left|S\right|\]
+
+\end_inset
+
+gdje 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang english
+
+\begin_inset Formula $\left|S\right|$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang croatian
+ predstavlja veličinu skupa 
+\begin_inset Formula $S$
+\end_inset
+
+.
+ To znači da je u gornjem primjeru 
+\begin_inset Formula $\gamma(S)=4\times3=12$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Neka vam je dat skup imena 
+\begin_inset Formula $S$
+\end_inset
+
+.
+ Vezir Dindan vas moli da nađete skup 
+\begin_inset Formula $T\subseteq S$
+\end_inset
+
+ (
+\begin_inset Formula $T$
+\end_inset
+
+ je podskup od 
+\begin_inset Formula $S$
+\end_inset
+
+) takav da je 
+\begin_inset Formula $\gamma(T)$
+\end_inset
+
+ maksimalno.
+\end_layout
+
+\begin_layout Subsection*
+Ulaz i izlaz
+\end_layout
+
+\begin_layout Standard
+Ulazne podatke čitate iz datoteke 
+\family typewriter
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+naslov
+\end_layout
+
+\end_inset
+
+.in
+\family default
+.
+ U prvoj liniji nalazi se prirodan broj 
+\begin_inset Formula $2\leq n\leq1000000$
+\end_inset
+
+ koji predstavlja broj imena.
+\end_layout
+
+\begin_layout Standard
+U sljedećih 
+\begin_inset Formula $n$
+\end_inset
+
+ redova se nalaze imena, koja se sastoje od znakova engleskog alfabeta (velika
+ i mala slova) i razmaka.
+ Dužina imena neće prelaziti 
+\begin_inset Formula $20000$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Rezultat trebate ispisati u datoteku 
+\family typewriter
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+naslov
+\end_layout
+
+\end_inset
+
+.out
+\family default
+.
+ Rezultat čini samo broj 
+\begin_inset Formula $\gamma(T)$
+\end_inset
+
+ gdje je 
+\begin_inset Formula $T$
+\end_inset
+
+ traženi skup.
+\end_layout
+
+\begin_layout Subsection*
+Testni primjeri
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+naslov
+\end_layout
+
+\end_inset
+
+.in
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{verbatim}
+\end_layout
+
+\begin_layout Plain Layout
+
+6
+\end_layout
+
+\begin_layout Plain Layout
+
+Abu Hasan
+\end_layout
+
+\begin_layout Plain Layout
+
+Harun ar Rasid
+\end_layout
+
+\begin_layout Plain Layout
+
+Dunjazada
+\end_layout
+
+\begin_layout Plain Layout
+
+Abu Mensur
+\end_layout
+
+\begin_layout Plain Layout
+
+Nuruddin
+\end_layout
+
+\begin_layout Plain Layout
+
+Abu Sulejman
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{verbatim}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+naslov
+\end_layout
+
+\end_inset
+
+.out
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{verbatim}
+\end_layout
+
+\begin_layout Plain Layout
+
+12
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{verbatim}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Ograničenja
+\end_layout
+
+\begin_layout Standard
+Vaš program može raditi najduže 
+\begin_inset Formula $5$
+\end_inset
+
+ sekundi i ne smije koristiti više od 
+\begin_inset Formula $64$
+\end_inset
+
+ MiB memorije.
+\end_layout
+
+\end_body
+\end_document

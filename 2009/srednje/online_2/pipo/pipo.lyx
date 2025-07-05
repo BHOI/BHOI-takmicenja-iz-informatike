@@ -1,0 +1,376 @@
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{multicol}
+\usepackage{graphicx}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+\end_modules
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[ELH,OLH]{Drugo BHOI online takmi
+\backslash
+v{c}enje iz informatike}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[ELH,ORH]{Strana 
+\backslash
+thepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Pipo
+\end_layout
+
+\begin_layout Standard
+Pipo je čovječuljak koji se kreće na pravougaonoj ploči, koja liči na šahovsku
+ ploču, sa m vrsta i n kolona.
+ Pipo se kreće koristeći četiri različita koraka.
+ Neka polja na ploči su zabranjena za stajanje a nije moguće ni napraviti
+ korak koji samo prelazi preko njih.
+ Pipo kreće iz gornjeg lijevog ugla i želi doći u desni donji ugao.
+ Pipo zna da, u opštem slučaju nije teško doći do donjeg desnog ugla.
+ Medjutim, nakon što je naučio osnovne pojmove vjerovatnoće, sada on želi
+ da izračuna koliko različitih načina ima da se dodje iz lijevog gornjeg
+ u desni donji ugao.
+ Recipročna vrijednost ovog broja je vjerovatnoća izbora jednog puta.
+ Pomozite Pipu da izračuna ukupan broj različitih puteva.
+ Dva puta su ista samo ako su dva niza odgovarajućih koraka identična.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Četiri različita koraka koja Pipo može napraviti su: 
+\end_layout
+
+\begin_layout Enumerate
+pomjeriti se u desno susjedno polje 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename slika1.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+pomjeriti se u donje susjedno polje 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename slika2.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+pomjeriti se na desno za tri polja 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename slika3.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+pomjeriti se desno za jedno i dolje za tri polja
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename slika4.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Ulaz i izlaz
+\end_layout
+
+\begin_layout Standard
+U prvom redu se nalaze dva prirodna broja m i n sa razmakom izmedju, gdje
+ je 
+\begin_inset Formula $\mathsf{m,n<100}$
+\end_inset
+
+.
+ U drugom redu se nalazi broj r koji predstavlja broj nedostupnih polja.
+ U sljedećih r redova se nalaze koordinate ovih r nedostupnih polja tj.
+ dva broja sa razmakom između.
+ 
+\end_layout
+
+\begin_layout Standard
+U prvom i jedinom redu treba ispisati koliko ima različitih puteva od lijevog
+ gornjeg do desnog donjeg polja.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Testni primjeri
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{pipo.in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+texttt{4 4 
+\backslash
+
+\backslash
+	4 
+\backslash
+
+\backslash
+	2 2 	
+\backslash
+
+\backslash
+2 3 
+\backslash
+
+\backslash
+	3 2 
+\backslash
+
+\backslash
+	3 3
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{pipo.out}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote} 
+\backslash
+texttt{4 } 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Objašnjenje
+\end_layout
+
+\begin_layout Standard
+Postoje samo sljedeća četiri puta od lijevog gornjeg ugla do desnog donjeg
+ ugla čije ćemo zapise i dati:
+\end_layout
+
+\begin_layout Enumerate
+1, 1, 1, 2, 2, 2 
+\end_layout
+
+\begin_layout Enumerate
+1, 1, 4 
+\end_layout
+
+\begin_layout Enumerate
+2, 2, 2, 1, 1, 1 
+\end_layout
+
+\begin_layout Enumerate
+2, 2, 2, 3 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename slika5.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent 
+\end_layout
+
+\end_inset
+
+Nije moguće krenuti sa korakom broj 4 jer bi morali preći preko dva zabranjena
+ polja: (2,2) i (3, 2).
+\end_layout
+
+\begin_layout Subsection*
+Ograničenja
+\end_layout
+
+\begin_layout Standard
+Vaš program može raditi najduže 1 sekundu i ne smije koristiti više od 32
+ MiB memorije.
+\end_layout
+
+\end_body
+\end_document

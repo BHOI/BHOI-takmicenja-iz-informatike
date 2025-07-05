@@ -1,0 +1,377 @@
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{multicol}
+\usepackage{graphicx}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+\end_modules
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[ELH,OLH]{Drugo BHOI online takmi
+\backslash
+v{c}enje iz informatike}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[ELH,ORH]{Strana 
+\backslash
+thepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Pogađanje
+\end_layout
+
+\begin_layout Standard
+Obično samo dva igrača igraju igru pogađanja brojeva.
+ Igrač A zamisli jedan broj a igrač B pogadja o kojem broju se radi.
+ Nakon toga igrač A izvještava koliko se nalazi na pravom mjestu i koliko
+ je ukupno cifara pogodjeno.
+ Potom igrač B, sa novim podacima, ponovo pogadja o kojem se broju radi.
+ Igra se nastavlja dok igrač B ne pogodi zamišljeni broj.
+ Na primjer, igrač A zamisli broj 25327 a igrač B pokušava sa brojem 3627.
+ Igrač A onda izvještava da je jedna cifra pogodjena (7) i da su pogodjena
+ 3 broja (2, 3 i 7) ali ne saopštava koja.
+ Potom igrač B pokušava sa, na primjer, brojem 859114 i dobiva izvještaj
+ o samo jednom pogodjenom broju itd.
+ 
+\end_layout
+
+\begin_layout Standard
+Vaš zadatak je da napravite program koji za dva data broja odredjuje koliko
+ je zajedničkih cifara i koliko je cifara na pravom mjestu.
+ Ovaj program se poslije može koristiti kao dio cijele kompjuterske igre
+ pogadjanja brojeva.
+ Brojevi mogu imati najviše 9 cifara i svi su pozitivni.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Ulaz i izlaz
+\end_layout
+
+\begin_layout Standard
+U prvom redu se nalazi prvi, zamišljeni broj a u drugom redu se nalazi broj
+ koji daje igrač B.
+ 
+\end_layout
+
+\begin_layout Standard
+U prvom treba ispisati koliko je cifara na pravom mjestu a u drugom redu
+ koliko ima zajedničkih cifara.
+\end_layout
+
+\begin_layout Subsection*
+Testni primjeri
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{pogadjanje.in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+texttt{221135
+\backslash
+
+\backslash
+   22135
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{pogadjanje.out}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote} 
+\backslash
+texttt{3
+\backslash
+
+\backslash
+5 } 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{pogadjanje.in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+texttt{563221
+\backslash
+
+\backslash
+758219
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{pogadjanje.out}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote} 
+\backslash
+texttt{0
+\backslash
+
+\backslash
+3 } 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{pogadjanje.in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+texttt{1252267
+\backslash
+
+\backslash
+458
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{pogadjanje.out}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote} 
+\backslash
+texttt{0
+\backslash
+
+\backslash
+1} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Ograničenja
+\end_layout
+
+\begin_layout Standard
+Vaš program može raditi najduže 1 sekundu i ne smije koristiti više od 32
+ MiB memorije.
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,679 @@
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{multicol}
+\usepackage{graphicx}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+\end_modules
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[ELH,OLH]{Drugo BHOI online takmi
+\backslash
+v{c}enje iz informatike}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[ELH,ORH]{Strana 
+\backslash
+thepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Pilići
+\end_layout
+
+\begin_layout Standard
+Mirko u svom dvorištu ima farmu tetoviranih pilića, oni su raspoređeni u
+ pilićarnike, koji su međusobno ograđeni ogradama.
+ Nažalost, Mirko je sagradio svoju farmu na starom asteškom groblju, a oni
+ su imali vrlo jasne zakone o uzgoju perutnine na njihovim grobljima, pa
+ su se i osigurali od toga.
+ Jedne noći, dok je Mirko čvrsto spavao, u ograđenim prostorima počeli su
+ se buditi zombiji i napadati piliće.
+ Dvorište je pravokutnog oblika i sastoji se od polja pravilno poredanih
+ u retke i stupce.
+ Znak 
+\family typewriter
+.
+
+\family default
+ (tačka) označava prazno polje, znak 
+\family typewriter
+#
+\family default
+ označava ogradu, znak 
+\family typewriter
+p
+\family default
+ označava pilića i znak 
+\family typewriter
+z
+\family default
+ označava zombija.
+ Dva polja pripadaju istom ograđenom prostoru ako od jednog do drugog polja
+ možemo doći putem koji ne sadrži ograde i koji se sastoji od horizontalnih
+ i vertikalnih pomaka.
+ Naravno, za polje iz kojeg možemo "pobjeći" iz dvorišta smatramo da ne
+ pripada niti jednom ograđenom prostoru.
+ Na sreću, Mirko je svakom svom tetoviranom piliću kupio Railgun, pa se
+ oni mogu odbraniti i zajedničkim snagama izbušiti zombije do ponovne smrti,
+ ali samo ako ih je unutar ograđenog prostora u kojem se nalaze strogo više
+ nego zombija (broj pilića > broj zombija).
+ U protivnom zombiji tijekom noći ubiju sve piliće unutar tog ograđenog
+ prostora.
+ Na početku se svi pilići i svi zombiji nalaze unutar ograđenih prostora
+ u dvorištu.
+ Napišite program koji će odrediti koliko će pilića i zombija preživjeti
+ ovu krvavu noć.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Ulaz i izlaz
+\end_layout
+
+\begin_layout Standard
+U prvom retku se nalaze dva cijela broja R i S, 3 ≤ R, S ≤ 250, broj redaka
+ i broj stupaca koji predstavljaju Mirkovo dvorište.
+ U svakom od sljedećih R redaka se nalazi S znakova koji predstavljaju izgled
+ dvorišta tj.
+ pozicije ograda, pilića i zombija u njemu.
+ 
+\series bold
+Napomena:
+\series default
+ 50% test podataka će biti "jednostavni" u smislu da će unutrašnjost svakog
+ ograđenog prostora biti pravokutnog oblika, a unutar tog pravokutnika neće
+ postojati druge ograde.
+ 
+\end_layout
+
+\begin_layout Standard
+U prvi i jedini redak ispišite broj preživjelih pilića i broj zombija koji
+ se nisu vratili pod zemlju.
+ Ta dva broja odvojite jednim razmakom.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Testni primjeri
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{pilici.in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+texttt{6 6 
+\backslash
+
+\backslash
+ ...
+\backslash
+#..
+\backslash
+
+\backslash
+ .
+\backslash
+#
+\backslash
+#z
+\backslash
+#.
+\backslash
+
+\backslash
+ 
+\backslash
+#z.
+\backslash
+#.
+\backslash
+#
+\backslash
+
+\backslash
+ 
+\backslash
+#.p
+\backslash
+#.
+\backslash
+#
+\backslash
+
+\backslash
+ .
+\backslash
+#
+\backslash
+#
+\backslash
+#.
+\backslash
+#
+\backslash
+
+\backslash
+ ...
+\backslash
+#
+\backslash
+#
+\backslash
+#
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{pilici.out}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote} 
+\backslash
+texttt{0 2 
+\backslash
+
+\backslash
+[5.5em] } 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{pilici.in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+texttt{8 8
+\backslash
+
+\backslash
+ .
+\backslash
+#
+\backslash
+#
+\backslash
+#
+\backslash
+#
+\backslash
+#
+\backslash
+#.
+\backslash
+
+\backslash
+ 
+\backslash
+#..p...
+\backslash
+#
+\backslash
+
+\backslash
+ 
+\backslash
+#.
+\backslash
+#
+\backslash
+#
+\backslash
+#
+\backslash
+#.
+\backslash
+#
+\backslash
+
+\backslash
+ 
+\backslash
+#.
+\backslash
+#z.
+\backslash
+#.
+\backslash
+#
+\backslash
+
+\backslash
+ 
+\backslash
+#.
+\backslash
+#.p
+\backslash
+#p
+\backslash
+#
+\backslash
+
+\backslash
+ 
+\backslash
+#p.
+\backslash
+#
+\backslash
+#..
+\backslash
+# 
+\backslash
+
+\backslash
+ 
+\backslash
+#.z..z.
+\backslash
+#
+\backslash
+
+\backslash
+ .
+\backslash
+#
+\backslash
+#
+\backslash
+#
+\backslash
+#
+\backslash
+#
+\backslash
+#.
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{pilici.out}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote} 
+\backslash
+texttt{3 1 
+\backslash
+
+\backslash
+[8em] } 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{pilici.in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+texttt{9 12
+\backslash
+
+\backslash
+ .
+\backslash
+#
+\backslash
+#
+\backslash
+#.
+\backslash
+#
+\backslash
+#
+\backslash
+#
+\backslash
+#
+\backslash
+#..
+\backslash
+
+\backslash
+ 
+\backslash
+#.pp
+\backslash
+#...
+\backslash
+#z
+\backslash
+#.
+\backslash
+
+\backslash
+ 
+\backslash
+#..p
+\backslash
+#.
+\backslash
+#.
+\backslash
+#.
+\backslash
+#.
+\backslash
+
+\backslash
+ 
+\backslash
+#..
+\backslash
+#
+\backslash
+#p
+\backslash
+#...
+\backslash
+#.
+\backslash
+
+\backslash
+ 
+\backslash
+#.
+\backslash
+#z
+\backslash
+#p
+\backslash
+#
+\backslash
+#
+\backslash
+#.
+\backslash
+#.
+\backslash
+
+\backslash
+ 
+\backslash
+#..
+\backslash
+#z
+\backslash
+#....
+\backslash
+#.
+\backslash
+
+\backslash
+ 
+\backslash
+#...z
+\backslash
+#z
+\backslash
+#
+\backslash
+#
+\backslash
+#
+\backslash
+#.
+\backslash
+
+\backslash
+ .
+\backslash
+#
+\backslash
+#
+\backslash
+#
+\backslash
+#.
+\backslash
+#zz.p
+\backslash
+# 
+\backslash
+
+\backslash
+.......
+\backslash
+#
+\backslash
+#
+\backslash
+#
+\backslash
+#.
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{pilici.out}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote} 
+\backslash
+texttt{3 5 
+\backslash
+
+\backslash
+[9em] } 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Ograničenja
+\end_layout
+
+\begin_layout Standard
+Vaš program može raditi najduže 1 sekundu i ne smije koristiti više od 32
+ MiB memorije.
+\end_layout
+
+\end_body
+\end_document

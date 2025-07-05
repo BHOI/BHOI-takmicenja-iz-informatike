@@ -1,0 +1,560 @@
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{multicol}
+\usepackage{graphicx}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+\end_modules
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[ELH,OLH]{Drugo BHOI online takmi
+\backslash
+v{c}enje iz informatike}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[ELH,ORH]{Strana 
+\backslash
+thepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Kolo
+\end_layout
+
+\begin_layout Standard
+Haso i Huso su dva najbolja prijatelja.
+ Dok Hasu poznaju svi nastavnici iz škole po dobrom učenju, Husu poznaju
+ svi vlasnici kladionica i lokala sa igrama na sreću.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename slika1.png
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Jednog dana dođe Huso do Hase i ispriča mu da je noć ranije igrao kolo sreće
+ ali mu nije otkrio šta je osvojio.
+ Umjesto toga odlučio se poigrati sa Hasom koji inače voli rješavati zadatke
+ te mu reći samo koje su bile po redu nagrade i koliko se stepeni kolo okrenulo
+ (Huso ima veoma veliku moć zapažanja!).
+ Iako dobar sa zadacima, Haso je odlučio potražiti pomoć programera profesionalc
+a – vas.
+ 
+\end_layout
+
+\begin_layout Standard
+Kolo je podijeljeno na 8 jednakih dijelova kao na slici i okreće se suprotno
+ smjeru kazaljke na satu (kolo se okreće, ne strelica).
+ Kolo se neće nikada zaustaviti tako da strelica pokazuje na jednu od crta
+ koje dijele kolo i koje su široke 1 stepen.
+ Ako su poznate vrijednosti nagrada napisanih na svakom polju (
+\begin_inset Formula $\mathsf{v_{1}}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathsf{v_{2}}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathsf{v_{3}}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathsf{v_{4}}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathsf{v_{5}}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathsf{v_{6}}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathsf{v_{7}}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathsf{v_{8}}$
+\end_inset
+
+) i broj stepeni za koje se kolo okrenulo prije nego se zaustavilo (broj
+ 
+\begin_inset Formula $\mathsf{s}$
+\end_inset
+
+), odredite koliku je vrijednost Huso osvojio (na koju vrijednost strelica
+ pokazuje) i za koliko stepeni se kolo trebalo okrenuti više ili manje da
+ osvoji najveću nagradu.
+ Sve nagrade će uvijek biti različite.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Ulaz i izlaz
+\end_layout
+
+\begin_layout Standard
+U prvih 8 redova se nalazi po jedan broj 
+\begin_inset Formula $\mathsf{0\leq v_{1-8}\leq10000}$
+\end_inset
+
+ koji predstavljaju vrijednosti nagrada smještenih redom kao na slici iznad.
+ U devetom redu se nalazi broj 
+\begin_inset Formula $\mathsf{0<s\leq5000}$
+\end_inset
+
+, koji označava za koliko se stepeni kolo okrenulo.
+ 
+\end_layout
+
+\begin_layout Standard
+U prvom redu ispišite vrijednost nagrade koju je Huso osvojio a u slijedećem
+ razliku u stepenima između trenutnog položaja i položaja koji bi Husi osigurao
+ najveću nagradu.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Testni primjeri
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{kolo.in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+texttt{100
+\backslash
+
+\backslash
+ 200
+\backslash
+
+\backslash
+ 300
+\backslash
+
+\backslash
+ 400
+\backslash
+
+\backslash
+ 500
+\backslash
+
+\backslash
+ 600
+\backslash
+
+\backslash
+ 700
+\backslash
+
+\backslash
+ 800
+\backslash
+
+\backslash
+ 451  
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{kolo.out}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote} 
+\backslash
+texttt{300
+\backslash
+
+\backslash
+92 
+\backslash
+
+\backslash
+[7em] } 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{kolo.in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+texttt{5
+\backslash
+
+\backslash
+ 10
+\backslash
+
+\backslash
+ 100
+\backslash
+
+\backslash
+ 25
+\backslash
+
+\backslash
+ 50
+\backslash
+
+\backslash
+ 75
+\backslash
+
+\backslash
+ 2
+\backslash
+
+\backslash
+ 40
+\backslash
+
+\backslash
+ 258 
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{kolo.out}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote} 
+\backslash
+texttt{75
+\backslash
+
+\backslash
+124 
+\backslash
+
+\backslash
+[7em] } 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent 
+\end_layout
+
+\end_inset
+
+Ilustracija drugog primjera:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename slika2.png
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{kolo.in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+texttt{4
+\backslash
+
+\backslash
+ 8
+\backslash
+
+\backslash
+ 1
+\backslash
+
+\backslash
+ 7
+\backslash
+
+\backslash
+ 3
+\backslash
+
+\backslash
+ 5
+\backslash
+
+\backslash
+ 6
+\backslash
+
+\backslash
+ 2 
+\backslash
+
+\backslash
+1846 
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{kolo.out}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote} 
+\backslash
+texttt{8 0 
+\backslash
+
+\backslash
+[8em] } 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Ograničenja
+\end_layout
+
+\begin_layout Standard
+Vaš program može raditi najduže 1 sekundu i ne smije koristiti više od 32
+ MiB memorije.
+\end_layout
+
+\end_body
+\end_document

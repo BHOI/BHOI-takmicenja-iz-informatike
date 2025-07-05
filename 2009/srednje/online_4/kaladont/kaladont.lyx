@@ -1,0 +1,494 @@
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{multicol}
+\usepackage{cmbright}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+\end_modules
+\language croatian
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\pdf_author "BHOI organizacioni tim"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[LH]{Četvrto BHOI online takmičenje iz informatike}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[RH]{Zadatak 
+\backslash
+textbf{kaladont}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[CF]{Strana 
+\backslash
+thepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+parindent 0pt
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Kaladont
+\end_layout
+
+\begin_layout Standard
+Mnogi ljudi su čuli svakakve viceve i priče o Muji i Sulji ali ono što vjerovatn
+o niko o njima ne zna je da je njihova najdraža igra 
+\emph on
+kaladont
+\emph default
+.
+ Kaladont je igra riječi od najmanje 2 igrača.
+ Igra počinje tako što prvi igrač kaže neku riječ dužu od 2 slova.
+ Slijedeći igrač onda mora reći riječ koja počinje sa zadnja dva slova riječi
+ igrača prije njega.
+ Na primjer, ako je prošla riječ bila 
+\family typewriter
+autobus
+\family default
+ slijedeća važeća riječ bi mogla biti 
+\family typewriter
+ustanak
+\family default
+ ali ne i 
+\family typewriter
+udarac
+\family default
+.
+ Ukoliko neki igrač ne može smisliti nijednu postojeću riječ koja zadovoljava
+ dati uslov, taj igrač gubi igru.
+\end_layout
+
+\begin_layout Standard
+Kod Muje i Sulje to ipak ide malo drugačije.
+ Njih dvojica, da bi izbjegli neprestane svađe oko toga koja riječ se može
+ koristiti a koja ne, zaduže Fatu da im sastavi listu riječi koje smiju
+ koristiti.
+ Onda svaki put kada jedan od njih kaže neku riječ, Fata tu riječ odobri
+ ili kaže da ne nije legalna.
+\end_layout
+
+\begin_layout Standard
+Vi, oduševljeni tom igrom, ste odlučili da odete do Muje i Sulje i pobijedite
+ ih.
+ Fatu ste uspjeli nagovoriti da vam pokaže listu riječi koju je pripremila
+ za slijedeću igru i sada vas zanima koje riječi sa liste su takve da sa
+ njima možete pobijediti igru.
+ Tj.
+ koje riječi sa liste su takve da sa njihova 2 zadnja slova ne počinje nijedna
+ druga data riječ.
+ Odlučili ste napraviti program koji će to učiniti za vas!
+\end_layout
+
+\begin_layout Subsection*
+Ulaz i izlaz
+\end_layout
+
+\begin_layout Standard
+U prvom redu datoteke 
+\family typewriter
+kaladont.in
+\family default
+ se nalazi broj 
+\begin_inset Formula $2\leq n\leq100000$
+\end_inset
+
+.
+ U slijedećih 
+\begin_inset Formula $n$
+\end_inset
+
+ redova se nalazi po jedna riječ od najmanje 3, a najviše 30 slova.
+ Riječi će sadržavati samo velika slova engleskog alfabeta (što znači da
+ npr.
+ 
+\family typewriter
+LJ
+\family default
+ predstavlja 2 slova 
+\family typewriter
+L
+\family default
+ i 
+\family typewriter
+J
+\family default
+).
+\end_layout
+
+\begin_layout Standard
+U datoteku 
+\family typewriter
+kaladont.out
+\family default
+ ispisati u posebnim redovima sve riječi sa čija zadnja 2 slova ne počinje
+ nijedna druga data riječ.
+ Riječi je potrebno ispisati u poretku u kojem su unesene.
+ Uvijek će biti data bar jedna takva riječ.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Testni primjeri
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+kaladont.in
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{verbatim}
+\end_layout
+
+\begin_layout Plain Layout
+
+3
+\end_layout
+
+\begin_layout Plain Layout
+
+AUTO
+\end_layout
+
+\begin_layout Plain Layout
+
+TOVAR
+\end_layout
+
+\begin_layout Plain Layout
+
+DRVO
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{verbatim}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+kaladont.out
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{verbatim}
+\end_layout
+
+\begin_layout Plain Layout
+
+TOVAR
+\end_layout
+
+\begin_layout Plain Layout
+
+DRVO
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{verbatim}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+kaladont.in
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{verbatim}
+\end_layout
+
+\begin_layout Plain Layout
+
+4		 
+\end_layout
+
+\begin_layout Plain Layout
+
+MANDARINA 
+\end_layout
+
+\begin_layout Plain Layout
+
+VIDEO	 
+\end_layout
+
+\begin_layout Plain Layout
+
+KOMPJUTER	 
+\end_layout
+
+\begin_layout Plain Layout
+
+NAZIV	 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{verbatim}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+kaladont.out
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{verbatim}
+\end_layout
+
+\begin_layout Plain Layout
+
+VIDEO	 
+\end_layout
+
+\begin_layout Plain Layout
+
+KOMPJUTER	 
+\end_layout
+
+\begin_layout Plain Layout
+
+NAZIV	
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{verbatim}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Ograničenja
+\end_layout
+
+\begin_layout Standard
+Vaš program može raditi najduže 1 sekundu i ne smije koristiti više od 32
+ MiB memorije.
+\end_layout
+
+\end_body
+\end_document

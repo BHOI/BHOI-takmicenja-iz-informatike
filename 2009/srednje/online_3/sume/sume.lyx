@@ -1,0 +1,278 @@
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{multicol}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+\end_modules
+\language croatian
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\pdf_author "BHOI organizacioni tim"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[LH]{Treće BHOI online takmičenje iz informatike}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[RH]{Zadatak 
+\backslash
+textbf{sume}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhf[CF]{Strana 
+\backslash
+thepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+parindent 0pt
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sume
+\end_layout
+
+\begin_layout Standard
+Dat vam je niz od n cijelih brojeva.
+ Ako svaka dva člana niza saberete, dobićete novi niz od 
+\begin_inset Formula $\mathsf{\frac{n(n-1)}{2}}$
+\end_inset
+
+ suma.
+\end_layout
+
+\begin_layout Standard
+U ovom zadatku vama je dat niz od 
+\begin_inset Formula $\mathsf{\frac{n(n-1)}{2}}$
+\end_inset
+
+ suma.
+ Vi trebate da odredite bilo koji niz koji odgovara ovom nizu suma.
+\end_layout
+
+\begin_layout Subsection*
+Ulaz i izlaz
+\end_layout
+
+\begin_layout Standard
+U prvoj liniji ulazne datoteke 
+\family typewriter
+sume.in
+\family default
+ se nalazi broj 
+\begin_inset Formula $\mathsf{1\leq t\leq1000}$
+\end_inset
+
+, koji označava broj nizova.
+ U sljedećih 
+\begin_inset Formula $\mathsf{t}$
+\end_inset
+
+ linija se nalazi broj 
+\begin_inset Formula $\mathsf{1<n<}11$
+\end_inset
+
+, broj članova niza, te nakon njega 
+\begin_inset Formula $\mathsf{\frac{n(n-1)}{2}}$
+\end_inset
+
+ cijela broja koja označavaju sume svaka dva člana početnog niza.
+ U izlaznu datoteku 
+\family typewriter
+sume.out
+\family default
+ ispisati samo članove početnog niza poredane po veličini.
+ Ukoliko se traženi niz ne može oformiti od datih suma u izlaznu datoteku
+ ispisati samo 
+\family typewriter
+Nemoguca misija
+\family default
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Testni primjeri
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+textbf{sume.in}
+\backslash
+
+\backslash
+ 
+\backslash
+texttt{3
+\backslash
+
+\backslash
+4 10 12 14 16 18 20 
+\backslash
+
+\backslash
+3 1520 175 204
+\backslash
+
+\backslash
+ 3 1520 1750 1930} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{quote}
+\backslash
+textbf{sume.out}
+\backslash
+
+\backslash
+ 
+\backslash
+texttt{3 7 9 11
+\backslash
+
+\backslash
+Nemoguca misija
+\backslash
+
+\backslash
+670 850 1080
+\backslash
+
+\backslash
+} 
+\backslash
+end{quote}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Ograničenja
+\end_layout
+
+\begin_layout Standard
+Vaš program može raditi najduže 1 sekundu i ne smije koristiti više od 32
+ MiB memorije.
+\end_layout
+
+\end_body
+\end_document
