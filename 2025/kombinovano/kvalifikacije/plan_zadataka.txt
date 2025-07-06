@@ -1,0 +1,9 @@
+------- LAKŠA GRUPA ZADATAKA -------
+1 - Semafor
+2 - Skrivena poruka 
+3 - Meteorologija
+------- TEŽA GRUPA ZADATAKA --------
+4 - Lunine gumice za kosu
+5 - Letjelica
+6 - Ping-Pong
+7 - Radna mjesta

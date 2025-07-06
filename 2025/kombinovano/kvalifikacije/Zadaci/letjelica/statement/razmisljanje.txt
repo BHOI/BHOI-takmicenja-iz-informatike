@@ -1,0 +1,57 @@
+
+Matematika, težina oko 4/7 - Nakon N jediničnih pomjeranja po osama u 3 dimenzije koliko različitih udaljenosti od početka može biti?
+
+0
+0
+
+1
+0, 1
+
+2
+0 (+1, -1),
+
+2
+
+3
+
+4
+
+5
+
+aha znaci koordinate
+(x, y, z)
+
+jendak sqrt(x^2, y^2, z^2), jednaka udaljenost. 
+jednak x^2 + y^2 + z^2 jednaka udaljenost
+
+koliko mogucih razlicitih udaljenosti??
+ako idemo pravolinijski:
+x koraka naprijed, 2x koraka naprijed-nazad
+x + 2k = total.
+n neparno: svaka neparna udaljenost od 1 do N
+3
+0 -> 1 -> 2 -> 3
+x koraka naprijed y koraka nazad, pripadaju n0, znaci 0 do N
+x + y = n
+x - y = t
+t = x - (n - x) = 2x - n. (n + 1 mogucnosti za t, jer n + 1 mogucnosti za x)
+0 - n, 2 * n - n = n
+simetricne mogucnosti. znaci odgovor je tipa floor(n/2) + 1. 
+
+ako idemo u ravni
+koraci gore-dole, u, d, koraci lijevo-desno, l, r
+u + d + l + r = N; 0 <= u, d, l, r <= N
+(u - d)^2 + (l - r)^2 = t
+koliko mogucnosti za t?
+bas neodredjeno.
+
+koje su koordinate moguce. recimo za fiksan x, koje y koordinate su moguce. n = N - abs(x). 
+za neparan N: moguce je (2k, 2t + 1), (2k + 1, 2t), tako da abs(2k) + abs(2t) + 1 <= n
+za paran N: (2k, 2t), abs(2k) + abs(2t) <= n
+
+i problem koliko tacno ima brojeva koji daju sumu neki broj. se rjesava faktorizacijom. i nema pite da ga neko tacno skonta.
+
+ne pomaze _nuzno_ zadatku.
+
+ako idemo u prostoru:
+za neparan N

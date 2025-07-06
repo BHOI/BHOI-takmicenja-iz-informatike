@@ -1,0 +1,15 @@
+name: "kvalifikacije_2025"
+description: "Kvalifikacije za državno takmičenje - 2025"
+token_mode: disabled
+tasks:
+  - semafor
+  - skrivena_poruka
+  - meteorologija
+  - lunine_gumice_za_kosu
+  - letjelica
+  - ping_pong
+  - radna_mjesta
+start: 1746604800
+stop: 1746617400
+timezone: Europe/Sarajevo
+score_precision: 1
