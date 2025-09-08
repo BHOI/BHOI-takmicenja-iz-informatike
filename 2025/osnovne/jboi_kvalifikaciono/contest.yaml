@@ -1,0 +1,11 @@
+name: "JBOI_kvalifikaciono"
+description: "Kvalifikaciono takmičenje za Juniorsku Balkansku Olimpijadu iz Informatike - 2025"
+token_mode: disabled
+tasks:
+  - amazon
+  - cizme
+  - dzak
+start: 1757239200
+stop: 1757253600
+timezone: Europe/Sarajevo
+score_precision: 1
