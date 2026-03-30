@@ -1,0 +1,15 @@
+name: "bhgoi_2026"
+description: "BHGOI 2026 - Bosanskohercegovačka ženska olimpijada iz informatike"
+token_mode: disabled
+tasks:
+  - bazen
+  - tunguzija
+  - algalord
+  - pin
+start: 1774782000
+stop: 1774796400
+timezone: Europe/Sarajevo
+score_precision: 1
+languages:
+  - C11 / gcc
+  - C++20 / g++
