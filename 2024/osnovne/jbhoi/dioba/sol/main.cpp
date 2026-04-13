@@ -1,5 +1,3 @@
-// Previse spor za veliko N
-
 #include <iostream>
 #include <vector>
 #include <queue>
