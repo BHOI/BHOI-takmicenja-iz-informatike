@@ -128,7 +128,7 @@ Ovaj primjer odgovara podzadacima 1 i 5.
 1
 10
 -1
-4
+3
 ```
 ### Objašnjenje 2
 U prvom pokušaju Amar želi preći iz pozicije u 0 u poziciju 0. Kako je već u poziciji 0 tako mu treba 0 energije za ovo (i otključava potez iz 0 u 1 za 1 jedinicu energije).
