@@ -1,0 +1,16 @@
+name: "online_kvalifikaciono_2026"
+description: "Online kvalifikaciono takmičenje za BHOI i JBHOI 2026"
+token_mode: disabled
+tasks:
+  - trka
+  - brojevi
+  - igraliste
+  - sp
+  - labirint
+  - timovi
+start: 1778403600
+stop: 1778421600
+timezone: Europe/Sarajevo
+score_precision: 1
+languages:
+  - C++20 / g++
