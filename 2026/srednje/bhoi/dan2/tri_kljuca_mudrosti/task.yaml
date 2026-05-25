@@ -1,0 +1,12 @@
+name: "tri_kljuca_mudrosti"
+title: "Tri Ključa Mudrosti"
+time_limit: 2.5
+memory_limit: 256
+n_input: 72
+token_mode: infinite
+public_testcases: all
+total_value: 100
+score_mode: max_subtask
+infile: ""
+outfile: ""
+primary_language: bs

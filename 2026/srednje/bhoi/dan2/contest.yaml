@@ -1,0 +1,14 @@
+name: "bhoi_2026_dan2"
+description: "BHOI 2026 Dan 2"
+token_mode: disabled
+tasks:
+  - klikeri
+  - gume
+  - blok
+  - tri_kljuca_mudrosti
+start: 1779616800
+stop: 1779631200
+timezone: Europe/Sarajevo
+score_precision: 1
+languages:
+  - C++20 / g++

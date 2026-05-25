@@ -4,6 +4,8 @@
 **/*.vscode
 **/build
 __pycache__
-**/sol/main
+**/sol/main*
+!**/sol/main*.cpp
+!**/sol/main*.py
 **/check/manager
 **/.DS_Store
