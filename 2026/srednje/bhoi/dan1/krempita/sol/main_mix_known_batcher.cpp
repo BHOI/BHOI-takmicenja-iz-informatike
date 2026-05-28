@@ -2,9 +2,6 @@
 za gateove do veličine 64 se koriste najbolji poznati gateovi, 
 za ostale se koristi batcher sort
 
-nije namijenjeno da iko ima 100 poena na ovom zadatku, ovo je tu 
-da se diferenciraju bolje konstante od gorih
-
 način nalaženja ova 64 networka se može vidjeti ovdje
 https://bertdobbelaere.github.io/sorting_networks.html
 */
