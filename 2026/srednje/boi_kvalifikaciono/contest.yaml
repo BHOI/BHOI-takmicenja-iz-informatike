@@ -1,0 +1,14 @@
+name: "boi_2026_kvalifikacije"
+description: "BOI 2026 Kvalifikacije"
+token_mode: disabled
+tasks:
+  - pritisak
+  - cipele
+  - karte
+  - mostovi
+start: 1781863200
+stop: 1781881200
+timezone: Europe/Sarajevo
+score_precision: 1
+languages:
+  - C++20 / g++
